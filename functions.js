@@ -40,7 +40,7 @@ tools_list = {
 };
 months_list = "January, February, March, April, May, June, July, August, September, October, November, December";
 day_list = "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday";
-self_description = "Hi, I have experience in developing frontend and backend systems such as food ordering systems, IOTs, app / web development using Flutter, HTML, CSS, Js. Also, Python for backend. Have business ideas / projects? just contact me.";
+self_description = '"If I could change, I would, take back the pain, I would. Retrace every wrong move that I made, I would. If I could stand up and take the blame, I would. I would take all my shame to the grave" ~Linkin Park';
 function show_projects(id)  {
     window.location.href = projects_list[id];
 }
@@ -112,26 +112,8 @@ function show_helper(msg_text)  {
     msg_shown = !msg_shown;
 }
 
-function detectMob() {
-    const toMatch = [
-        /Android/i,
-        /webOS/i,
-        /iPhone/i,
-        /iPad/i,
-        /iPod/i,
-        /BlackBerry/i,
-        /Windows Phone/i
-    ];
-    
-    return toMatch.some((toMatchItem) => {
-        return navigator.userAgent.match(toMatchItem);
-    });
-}
+
 function onload_functions()  {
-    if (detectMob())    {
-        // alert("mobile view");
-        location.replace("./mobile/index.html");
-    }
     date = new Date();
     // show_description();
     document.getElementById("age") . innerHTML = (date.getFullYear() - 2003) + " y/o";
