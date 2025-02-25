@@ -1,11 +1,11 @@
 wallpaper_list = ["https://images5.alphacoders.com/862/862186.png", "https://images3.alphacoders.com/131/1316955.png"];
 // alert(wallpaper_list[0]);
 
-contact_developer = ["https://instagram.com/mnwanx", "https://github.com/wanZ772", "https://youtube.com/c/MuhammadNajwan", "https://www.linkedin.com/in/muhammad-najwan-b96064326/", "https://twitter.com/wanz772", "https://tiktok.com/@mnwanx"];
+contact_developer = ["https://instagram.com/mnwanx", "https://github.com/mnwanx", "https://youtube.com/c/MuhammadNajwan", "https://www.linkedin.com/in/mnwanx/", "https://twitter.com/mnwanx", "https://tiktok.com/@mnwanx"];
 // projects_list = {
-//     "GitHub":"https://github.com/wanZ772",
+//     "GitHub":"https://github.com/mnwanx",
 //     "Music Streaming App":"https://streameo.onrender.com",
-//     "Natural Hazard Web App":"https://wanz772.github.io/natural_hazard",
+//     "Natural Hazard Web App":"https://mnwanx.github.io/natural_hazard",
 //     "Natural Hazard backend API":"https://natural-hazard-forecast.onrender.com",
 //     "Mosque Location Finder API":"https://masjid.onrender.com",
 //     "Smart Farming System (IOT)":"https://vt.tiktok.com/ZSYtbTQbQ/",
@@ -15,19 +15,21 @@ contact_developer = ["https://instagram.com/mnwanx", "https://github.com/wanZ772
 // };
 
 projects_list = {
-    "GitHub":"https://github.com/wanZ772",
+    "GitHub":"https://github.com/mnwanx",
     "Music Streaming App":"https://streameo.onrender.com",
-    "Natural Hazard Web App":"https://wanz772.github.io/natural_hazard",
+    "Natural Hazard Web App":"https://mnwanx.github.io/natural_hazard",
     "Natural Hazard backend API":"https://natural-hazard-forecast.onrender.com",
     "Mosque Location Finder API":"https://masjid.onrender.com",
-    // "Bus Booking System (On going)": "https://github.com/wanz772/bus_reservation_system_production",
+    // "Bus Booking System (On going)": "https://github.com/mnwanx/bus_reservation_system_production",
     "Hand Gesture (Python + OpenCV)":"assets/hand_gesture_project.mp4",
-    "Bus Reservation System": "https://www.linkedin.com/posts/muhammad-najwan-b96064326_bus-reservation-system-original-project-activity-7240237449086394369--VN2?utm_source=share&utm_medium=member_desktop",
-    "MySolat (Application)": "https://wanz772.github.io/mysolat_website/MySolat.apk",
-    "MySolat (LinkedIn Documentation)":"https://www.linkedin.com/posts/muhammad-najwan-b96064326_mysolat-v2024-updated-post-this-app-was-activity-7239117922332286976-nnUz?utm_source=share&utm_medium=member_desktop",
-    "MySolat (GitHub Documentation)": "https://github.com/wanz772/mysolat_website",
-    "Music E-Commerce":"https://wanz772.github.io/music_store",
-    "Smart POT / Farming System": "https://www.linkedin.com/posts/muhammad-najwan-b96064326_mini-project-semester-1-smart-farming-system-activity-7238406170510553090-HmX0?utm_source=share&utm_medium=member_desktop",
+    "Bus Reservation System": "https://www.linkedin.com/posts/mnwanx_bus-reservation-system-original-project-activity-7240237449086394369-s1Sh?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
+    "MySolat (Application)": "https://mnwanx.github.io/mysolat_website/MySolat.apk",
+    "MySolat (LinkedIn Documentation)":"https://www.linkedin.com/posts/mnwanx_mysolat-v2024-updated-post-this-app-was-activity-7239117922332286976-bueO?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
+    "MySolat (GitHub Documentation)": "https://github.com/mnwanx/mysolat_website",
+    "Music E-Commerce":"https://mnwanx.github.io/music_store",
+    "Smart POT / Farming System": "https://www.linkedin.com/posts/mnwanx_mini-project-semester-1-smart-farming-system-activity-7238406170510553090-TEYP?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
+    "StreameoPod (MP3 Player Version of Streameo App)":"https://www.linkedin.com/posts/mnwanx_its-been-a-long-time-since-my-last-post-activity-7300082818867503104-Nuu8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
+    "Natural Hazard Forecast Backend Server (LinkedIn documentation)": "https://www.linkedin.com/posts/mnwanx_natural-hazard-forecast-backend-server-and-activity-7242416683582160898-7mnV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
 };
 
 
@@ -36,11 +38,12 @@ tools_list = {
     "BJT Full Analysis Calculator (Mobile View)": "transistor_calculator",
     "Dynamic URL Reroute":"url_shorterner",
     "Instagram Favorite Clear":"https://clearfav.onrender.com",
-    "URL Shortener":"url_shorterner"
+    "URL Shortener":"url_shorterner",
+    "TikTok Undo": "https://github.com/mnwanx/tiktok_unrepost",
 };
 months_list = "January, February, March, April, May, June, July, August, September, October, November, December";
 day_list = "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday";
-self_description = '"If I could change, I would, take back the pain, I would. Retrace every wrong move that I made, I would. If I could stand up and take the blame, I would. I would take all my shame to the grave" \n~Linkin Park';
+self_description = '"If I could change, I would, take back the pain, I would. Retrace every wrong move that I made, I would. If I could stand up and take the blame, I would. I would take all my shame to the grave"<br>~ Linkin Park ~';
 function show_projects(id)  {
     window.location.href = projects_list[id];
 }
@@ -146,7 +149,7 @@ function onload_functions()  {
      }
      
     //  msg_shown = false;
- 
+     
      document.getElementById("html").addEventListener("mousemove", function (e) {
        var $cursor = document.getElementById('cursor');
 
@@ -155,6 +158,8 @@ function onload_functions()  {
        social_hover = document.getElementById("contact_developer_id");
        icons_hover = document.getElementById("icons");
        tools_hover = document.getElementById("tools");
+       time_hover = document.getElementById("display_time");
+       date_hover = document.getElementById("display_date");
 
        $cursor.style.left = (e.pageX - cursorOffset.left) + 'px';
        $cursor.style.top = (e.pageY - cursorOffset.top) + 'px';
@@ -162,7 +167,11 @@ function onload_functions()  {
        msg.setAttribute("id", "msg");
        msg.setAttribute("style", "width:100%; left: "+ 120 +"px; top: "+ 0+"px; opacity:1;");
 
-        
+       window.addEventListener('contextmenu', function(right_click)   {
+        right_click.preventDefault();
+        $cursor.appendChild(msg);
+        show_helper("What r u searching 4?");
+     });
 
        if (projects_hover.matches(':hover'))    {
         // node = document.createTextNode("Click one of those to see the project");
@@ -201,7 +210,17 @@ function onload_functions()  {
             show_helper("Wanna get some help? Use my tool!");
             // msg_shown = !msg_shown;
         }
-       } else   {
+       } else if (time_hover.matches(':hover')) {
+            if (!msg_shown) {
+                $cursor.appendChild(msg);
+                show_helper("Counting to your death? <br> HA HA HA");
+            }
+       } else if (date_hover.matches(':hover')) {
+        if (!msg_shown) {
+            $cursor.appendChild(msg);
+            show_helper("Date of Death !");
+        }
+   } else   {
         close_msg();
     }
      
@@ -222,7 +241,7 @@ function onload_functions()  {
      box.setAttribute("id", "msg_box");
      node = document.createTextNode("Welcome!");
      box.appendChild(node);
-     node = document.createTextNode("Please use desktop / desktop view to have a better experience!");
+     node = document.createTextNode("Please use desktop or laptop for a better experience!");
      box.appendChild(document.createElement("br"));
      box.appendChild(node);
      close_button = document.createElement("button");

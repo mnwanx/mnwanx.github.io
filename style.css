@@ -17,6 +17,18 @@ html    {
 
 }
 
+
+.punct
+{
+background-color:blue;
+position:absolute;
+width:2px;
+height:6px;
+}
+#content {
+    height: 400px; width: 500px; border: solid 1px black;}
+
+
 /* Track */
 
  
