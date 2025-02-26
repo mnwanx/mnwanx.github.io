@@ -2,9 +2,11 @@
 html    {
     
     background-color: black;
-    /* background-image: url("https://animesher.com/orig/1/145/1456/14564/animesher.com_gif-night-wind-1456418.gif"); */
-    background-image: url("https://images5.alphacoders.com/862/862186.png");
-    background-repeat: no-repeat;
+    /* background-image: url("assets/background.gif"); */
+    background-image: url("https://animesher.com/orig/1/145/1456/14564/animesher.com_gif-night-wind-1456418.gif");
+    /* background-image: url("https://images5.alphacoders.com/862/862186.png"); */
+    background-repeat:no-repeat ;
+    
     background-size: cover;
     font-family: "Creepster", system-ui;
   font-style: bold;
