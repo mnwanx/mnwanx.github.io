@@ -14,6 +14,30 @@ html    {
   cursor: url('assets/cursor.png') 0 0, wait;
   
 }
+
+body {
+  margin: 0;
+  overflow: hidden;
+
+}
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.flash {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  opacity: 0;
+  transition: opacity 0.1s ease-out;
+  pointer-events: none;
+}
+
+
 ::-webkit-scrollbar {
   width: 5px;
 
@@ -139,7 +163,7 @@ height:6px;
     color: white;
     text-align: center;
     cursor: pointer;
-    z-index: -10;
+    z-index: 1;
 }
 #icons  {
     word-spacing: 3px;
@@ -171,6 +195,7 @@ height:6px;
     font-size: 80px;
     top: 50%;
     transform: translate(-50%, -50%);
+    z-index: -1;
   }
 
 .info   {
