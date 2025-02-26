@@ -39,21 +39,68 @@ height:6px;
   height: 10px;
 }
 
+@keyframes cursor_blink {
+  50% {color: transparent}
+}
+
 @keyframes blink {
-  50% {
-    opacity: 0.0;
-  }
+  0% {color: whitesmoke;}
+  10% {color: transparent;}
+  20% {color: whitesmoke;}
+  25% {color: transparent;}  
+  30% {color: whitesmoke;}
+  35% {color: transparent;}
+  40% {color: whitesmoke}
+  100% {color: whitesmoke;}
 }
 
 
+#flying_bat {
+  position: absolute;
+  width: 10%;
+  animation-name: fly;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  z-index: 2;
+}
+
+#flying_bat_reverse {
+  position: absolute;
+  width: 10%;
+  right: 0%;
+  animation-name: fly_down;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  z-index: 2;
+}
+
+@keyframes fly {
+  0% { top: 100%; left: 5% }
+  25% { top: 50%;  left: 0% }
+  75% { top: 0%;  left: 10% }
+  100% { top: -30%;  left: 0% }
+}
+
+@keyframes fly_down {
+  100% { top: 100%; right: 5% }
+  75% { top: 50%;  right: 0% }
+  25% { top: 0%;  right: 10% }
+  0% { top: -30%;  right: 0% }
+}
+
 .date_and_time  {
-  animation-name: blink_animation;
+  
     position: absolute;
     color: whitesmoke;
     left: 50%;
     top: 10%;
     transform: translate(-50%, -50%);
     text-shadow: 5px 5px black;
+
+    animation-name: blink;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    
 }
 
 #display_time   {

@@ -70,17 +70,21 @@ function update_current_time()  {
     
     today_date = time_formating(date.getDate());
 
-    document.getElementById("display_time").innerHTML = hour + " : " + minute + " : " + second;
-    document.getElementById("display_date").innerHTML = day_list.split(",")[date.getDay()] + ", " + today_date + " " + months_list.split(",")[date.getMonth()] + " " + date.getFullYear();
+    document.getElementById("display_time").innerHTML = "☠️" + hour + " : " + minute + " : " + second + "☠️";
+    document.getElementById("display_date").innerHTML = "☠️" + day_list.split(",")[date.getDay()] + ", " + today_date + " " + months_list.split(",")[date.getMonth()] + " " + date.getFullYear() + "☠️";
 }
 
 setInterval(update_current_time, 1000);
-var background_music =  new Audio("assets/background_music_2.mp3");
 var typing_sfx = new Audio("assets/typing.mp3");
+var background_music =  new Audio("assets/background_music_2.mp3");
+var thunder_sfx = new Audio("assets/thunder.mp3");
+var rain_sfx = new Audio("assets/rain.mp3");
 
 
 async function show_description()   {
     typing_sfx.play();
+    thunder_sfx.play();
+    
     description = document.getElementById("self_description");
     for (i = 0; i < self_description.length; i++)   {
         
@@ -89,15 +93,19 @@ async function show_description()   {
         description.innerHTML = description.innerHTML.replace(" _", "");
     }
     description.innerHTML = self_description + "<text id='blinking_cursor'> _</text>";
-    document.getElementById("blinking_cursor") . style . animation = "blink 1s step-start 0s infinite";
+    document.getElementById("blinking_cursor") . style . animation = "cursor_blink 1s step-start 0s infinite";
     typing_sfx.pause();
     background_music.play();
+    rain_sfx.play();
+    
 }
 
 
 function close_msg_box()    {
     document.getElementById("msg_box").remove();
     background_music.loop = true;
+    thunder_sfx.loop = true;
+    rain_sfx.loop = true;
     show_description();
     // try {
     //     background_music.play()
