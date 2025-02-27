@@ -92,6 +92,7 @@ function animate() {
     }
 
     requestAnimationFrame(animate);
+    
 }
 
 function triggerThunder() {
@@ -102,7 +103,7 @@ function triggerThunder() {
     setTimeout(triggerThunder, Math.random() * 5000 + 2000);
 }
 
-animate();
+// animate();
 triggerThunder();
 
 window.addEventListener("resize", () => {

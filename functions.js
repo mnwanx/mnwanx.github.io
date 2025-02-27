@@ -77,6 +77,8 @@ function update_current_time()  {
 setInterval(update_current_time, 1000);
 var typing_sfx = new Audio("assets/typing.mp3");
 var background_music =  new Audio("assets/background_music_2.mp3");
+// var background_music = new Audio("assets/background_music.aac");
+
 var thunder_sfx = new Audio("assets/thunder.mp3");
 var rain_sfx = new Audio("assets/rain.mp3");
 
@@ -89,14 +91,16 @@ async function show_description()   {
     for (i = 0; i < self_description.length; i++)   {
         
         description.innerHTML += self_description[i] + " _";
-        await new Promise(sleep => setTimeout(sleep, 20));
+        await new Promise(sleep => setTimeout(sleep, 30));
         description.innerHTML = description.innerHTML.replace(" _", "");
     }
     description.innerHTML = self_description + "<text id='blinking_cursor'> _</text>";
     document.getElementById("blinking_cursor") . style . animation = "cursor_blink 1s step-start 0s infinite";
     typing_sfx.pause();
     background_music.play();
+    animate();
     rain_sfx.play();
+    // animate();
     
 }
 
@@ -130,6 +134,7 @@ function onload_functions()  {
     document.getElementById("age") . innerHTML = (date.getFullYear() - 2003) + " y/o";
     target = document.getElementById("projects");
     head = document.createElement("h2");
+    head.id = "info_header";
     node = document.createTextNode("Projects (More on GitHub)");
     head.appendChild(node);
     head.setAttribute("onclick", "show_projects('GitHub')");
@@ -197,7 +202,7 @@ function onload_functions()  {
         if (!msg_shown) {
             
             $cursor.appendChild(msg);
-            show_helper("Get to know me :)");
+            show_helper("Get to know me 👻");
             // msg_shown = !msg_shown;
         } 
        } else if (social_hover.matches(':hover'))    {
@@ -261,4 +266,3 @@ function onload_functions()  {
      target.appendChild(box);
     //  background_music.play();
 }
-
