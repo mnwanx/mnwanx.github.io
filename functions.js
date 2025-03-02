@@ -98,7 +98,7 @@ async function show_description()   {
     description.innerHTML = self_description + "<text id='blinking_cursor'> _</text>";
     document.getElementById("blinking_cursor") . style . animation = "cursor_blink 1s step-start 0s infinite";
     typing_sfx.pause();
-    // background_music.play();
+    background_music.play();
     animate();
     rain_sfx.play();
     // animate();
