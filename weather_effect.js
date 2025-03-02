@@ -27,8 +27,9 @@ class Raindrop {
     }
 
     draw() {
-        ctx.strokeStyle = `rgba(165, 10, 10, ${this.opacity})`;
-        ctx.lineWidth = 1.8;
+        ctx.strokeStyle = `rgba(220, 40, 40, ${this.opacity})`;
+        // ctx.strokeStyle = `rgba(173, 216, 230, ${this.opacity})`;
+        ctx.lineWidth = 2;
         ctx.beginPath();
         ctx.moveTo(this.x, this.y);
         ctx.lineTo(this.x, this.y + this.length);
@@ -61,7 +62,8 @@ class Splash {
     }
 
     draw() {
-        ctx.fillStyle = `rgba(165, 10, 10, ${this.opacity})`;
+        ctx.fillStyle = `rgba(220, 40, 40, ${this.opacity})`;
+        // ctx.fillStyle = `rgba(173, 216, 230, ${this.opacity})`;
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
         ctx.fill();

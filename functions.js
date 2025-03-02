@@ -37,9 +37,10 @@ tools_list = {
     "Resistance Calculator (Mobile View)": "resistance_calculator",
     "BJT Full Analysis Calculator (Mobile View)": "transistor_calculator",
     "Dynamic URL Reroute":"url_shorterner",
-    "Instagram Favorite Clear":"https://clearfav.onrender.com",
+    "Instagram Favorite Clear (Project Deleted)":"https://clearfav.onrender.com",
     "URL Shortener":"url_shorterner",
-    "TikTok Undo": "https://github.com/mnwanx/tiktok_unrepost",
+    "TikTok Undo (Remove like / repost / save)": "https://github.com/mnwanx/tiktok_unrepost",
+    "Open Transfer (Beta Release)":"https://transfer-6olw.onrender.com",
 };
 months_list = "January, February, March, April, May, June, July, August, September, October, November, December";
 day_list = "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday";
@@ -97,7 +98,7 @@ async function show_description()   {
     description.innerHTML = self_description + "<text id='blinking_cursor'> _</text>";
     document.getElementById("blinking_cursor") . style . animation = "cursor_blink 1s step-start 0s infinite";
     typing_sfx.pause();
-    background_music.play();
+    // background_music.play();
     animate();
     rain_sfx.play();
     // animate();
