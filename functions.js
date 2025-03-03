@@ -40,7 +40,7 @@ tools_list = {
     "Instagram Favorite Clear (Project Deleted)":"https://clearfav.onrender.com",
     "URL Shortener":"url_shorterner",
     "TikTok Undo (Remove like / repost / save)": "https://github.com/mnwanx/tiktok_unrepost",
-    "Open Transfer (Beta Release)":"https://transfer-6olw.onrender.com",
+    "Open Transfer (Beta Release)":"https://opentransfer.onrender.com",
 };
 months_list = "January, February, March, April, May, June, July, August, September, October, November, December";
 day_list = "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday";
