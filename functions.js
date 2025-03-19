@@ -30,6 +30,7 @@ projects_list = {
     "Smart POT / Farming System": "https://www.linkedin.com/posts/mnwanx_mini-project-semester-1-smart-farming-system-activity-7238406170510553090-TEYP?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
     "StreameoPod (MP3 Player Version of Streameo App)":"https://www.linkedin.com/posts/mnwanx_its-been-a-long-time-since-my-last-post-activity-7300082818867503104-Nuu8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
     "Natural Hazard Forecast Backend Server (LinkedIn documentation)": "https://www.linkedin.com/posts/mnwanx_natural-hazard-forecast-backend-server-and-activity-7242416683582160898-7mnV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
+    "OpenTransfer (LinkedIn Documentation)":"https://www.linkedin.com/posts/mnwanx_opentransfer-this-is-just-updated-activity-7307264352938561536-ywTn"
 };
 
 
@@ -40,7 +41,7 @@ tools_list = {
     "Instagram Favorite Clear (Project Deleted)":"https://clearfav.onrender.com",
     "URL Shortener":"url_shorterner",
     "TikTok Undo (Remove like / repost / save)": "https://github.com/mnwanx/tiktok_unrepost",
-    "Open Transfer (Beta Release)":"https://opentransfer.onrender.com",
+    "Open Transfer v2025.0.1-Beta":"https://opentransfer.onrender.com",
 };
 months_list = "January, February, March, April, May, June, July, August, September, October, November, December";
 day_list = "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday";
