@@ -1,0 +1,20 @@
+body    {
+    background-color: black;
+}
+
+h1  {
+    color: white;
+    letter-spacing: 20px;
+    word-spacing: 10px;
+    font-size: 50px;
+    animation-name: blink;
+}
+
+img {
+    width: 50%;
+}
+
+.date_and_time  {
+    display:none;
+}
+
