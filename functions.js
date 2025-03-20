@@ -30,7 +30,8 @@ projects_list = {
     "Smart POT / Farming System": "https://www.linkedin.com/posts/mnwanx_mini-project-semester-1-smart-farming-system-activity-7238406170510553090-TEYP?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
     "StreameoPod (MP3 Player Version of Streameo App)":"https://www.linkedin.com/posts/mnwanx_its-been-a-long-time-since-my-last-post-activity-7300082818867503104-Nuu8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
     "Natural Hazard Forecast Backend Server (LinkedIn documentation)": "https://www.linkedin.com/posts/mnwanx_natural-hazard-forecast-backend-server-and-activity-7242416683582160898-7mnV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
-    "OpenTransfer (LinkedIn Documentation)":"https://www.linkedin.com/posts/mnwanx_opentransfer-this-is-just-updated-activity-7307264352938561536-ywTn"
+    "Open Transfer (LinkedIn Documentation)":"https://www.linkedin.com/posts/mnwanx_opentransfer-this-is-just-updated-activity-7307264352938561536-ywTn",
+    "Covid Tracking App (Disconitued)":"https://github.com/mnwanx/covid_tracker_app.git"
 };
 
 
@@ -42,20 +43,25 @@ tools_list = {
     "URL Shortener":"url_shorterner",
     "TikTok Undo (Remove like / repost / save)": "https://github.com/mnwanx/tiktok_unrepost",
     "Open Transfer v2025.0.1-Beta":"https://opentransfer.onrender.com",
+    "Air-Strike":"https://github.com/mnwanx/air-strike-public"
+    
 };
 months_list = "January, February, March, April, May, June, July, August, September, October, November, December";
 day_list = "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday";
 self_description = '"If I could change, I would, take back the pain, I would. Retrace every wrong move that I made, I would. If I could stand up and take the blame, I would. I would take all my shame to the grave"<br>~ Linkin Park ~';
 function show_projects(id)  {
-    window.location.href = projects_list[id];
+    // window.location.href = projects_list[id];
+    window.open(projects_list[id], '_blank');
 }
 
 function open_tools(tool) {
-    window.location.href = tools_list[tool];
+    // window.location.href = tools_list[tool];
+    window.open(tools_list[tool], '_blank');
 }
 
 function contact_me(id)   {
-    window.location.href = contact_developer[id];
+    // window.location.href = contact_developer[id];
+    window.open(contact_developer[id], '_blank');
 }
 function time_formating(value)   {
     if (value < 10) {
