@@ -1,10 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Jacquard+24&display=swap');
+
 html    {
     
     background-color: black;
     /* background-image: url("assets/background.gif"); */
-    background-image: url("https://animesher.com/orig/1/145/1456/14564/animesher.com_gif-night-wind-1456418.gif");
+    /* background-image: url("https://animesher.com/orig/1/145/1456/14564/animesher.com_gif-night-wind-1456418.gif"); */
     /* background-image: url("https://images5.alphacoders.com/862/862186.png"); */
+    background-image: url("assets/background2.gif");
     background-repeat:no-repeat ;
     
     background-size: cover;
@@ -140,9 +143,12 @@ height:6px;
 
 #display_date    {
     position: relative;
-    font-size: 20px;
+    font-size: 35px;
     width: 100%;
     text-align: center;
+    font-family: "Jacquard 24", system-ui;
+    font-style: bold;
+
 }
 
 #credit {
@@ -164,6 +170,9 @@ height:6px;
     text-align: center;
     cursor: pointer;
     z-index: 1;
+    font-family: "Jacquard 24", system-ui;
+  /* font-style: bold; */
+  font-size: 25px;
 }
 #icons  {
     word-spacing: 3px;
@@ -196,6 +205,9 @@ height:6px;
     top: 50%;
     transform: translate(-50%, -50%);
     z-index: -1;
+    /* font-size: 540px; */
+    font-family: "Jacquard 24", system-ui;
+  font-style: bold;
   }
 
 .info   {
@@ -209,6 +221,7 @@ height:6px;
     transform: translateX(50%);
     transform: translateY(30%);
     z-index: 2;
+    
 
 }
 
@@ -223,6 +236,8 @@ height:6px;
     background-color: rgba(0,0,0,.6);
     transition: 1s;
     cursor: url('assets/cursor.png') 0 0, wait;
+    
+  
 
   }
 #profile p   {
@@ -342,6 +357,9 @@ height:6px;
     color: black;
     background-color: rgba(255,255,255,.9);
     z-index: 10;
+    font-size: 50px;
+    font-family: "Jacquard 24", system-ui;
+  font-style: bold;
   }
 
   button    {
@@ -350,7 +368,10 @@ height:6px;
     height: 20%;
     border-radius: 50px;
     background-color: crimson;
-    font-family: "Creepster", system-ui;
-    font-size: 40px;
+    font-size: 50px;
+    font-family: "Jacquard 24", system-ui;
+  font-style: bold;
     cursor: pointer;
   }
+
+  

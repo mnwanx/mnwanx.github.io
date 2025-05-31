@@ -34,7 +34,7 @@ projects_list = {
     "Covid Tracking App (Disconitued)":"https://github.com/mnwanx/covid_tracker_app.git"
 };
 
-
+right_click_msg = ["What r u searching 4?", "Sun goes down", "the light betrayed us", "There is no sun here", "Scream 'till silence", "I'm much 2 young 2 fall", "Die! Die! Die!", "I want ur soul!", "I want to live"];
 tools_list = {
     "Resistance Calculator (Mobile View)": "resistance_calculator",
     "BJT Full Analysis Calculator (Mobile View)": "transistor_calculator",
@@ -83,12 +83,14 @@ function update_current_time()  {
 }
 
 setInterval(update_current_time, 1000);
-var typing_sfx = new Audio("assets/typing.mp3");
-var background_music =  new Audio("assets/background_music_2.mp3");
+typing_sfx = new Audio("assets/typing.mp3");
+background_music = new Audio("assets/background_music_3.mp3");
+// background_music =  new Audio("assets/background_music_2.mp3");
 // var background_music = new Audio("assets/background_music.aac");
 
-var thunder_sfx = new Audio("assets/thunder.mp3");
-var rain_sfx = new Audio("assets/rain.mp3");
+thunder_sfx = new Audio("assets/thunder.mp3");
+rain_sfx = new Audio("assets/rain.mp3");
+wind_sfx = new Audio("assets/rainstorm-with-wind-351117.mp3");
 
 
 async function show_description()   {
@@ -105,6 +107,7 @@ async function show_description()   {
     description.innerHTML = self_description + "<text id='blinking_cursor'> _</text>";
     document.getElementById("blinking_cursor") . style . animation = "cursor_blink 1s step-start 0s infinite";
     typing_sfx.pause();
+    wind_sfx.play();
     background_music.play();
     animate();
     rain_sfx.play();
@@ -118,6 +121,7 @@ function close_msg_box()    {
     background_music.loop = true;
     thunder_sfx.loop = true;
     rain_sfx.loop = true;
+    wind_sfx.loop = true
     show_description();
     // try {
     //     background_music.play()
@@ -186,12 +190,13 @@ function onload_functions()  {
        $cursor.style.top = (e.pageY - cursorOffset.top) + 'px';
        msg = document.createElement("p");
        msg.setAttribute("id", "msg");
-       msg.setAttribute("style", "width:100%; left: "+ 120 +"px; top: "+ 0+"px; opacity:1;");
+       msg.setAttribute("style", "width:100%; left: "+ 120 +"px; top: "+ 0+"px; opacity:1; font-size: 30px; font-family: 'Jacquard 24', system-ui; font-style: bold;");
 
        window.addEventListener('contextmenu', function(right_click)   {
+        
         right_click.preventDefault();
         $cursor.appendChild(msg);
-        show_helper("What r u searching 4?");
+        show_helper(right_click_msg[Math.floor(Math.random() * right_click_msg.length)]);
      });
 
        if (projects_hover.matches(':hover'))    {
@@ -210,7 +215,9 @@ function onload_functions()  {
         if (!msg_shown) {
             
             $cursor.appendChild(msg);
-            show_helper("Get to know me 👻");
+            // show_helper("Get to know me 👻");
+            show_helper("Find all " + (right_click_msg.length + 6) + " hidden msg");
+            // show_helper(right_click_msg[Math.floor(Math.random() * right_click_msg.length)]);
             // msg_shown = !msg_shown;
         } 
        } else if (social_hover.matches(':hover'))    {
