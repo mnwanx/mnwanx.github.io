@@ -91,6 +91,8 @@ background_music = new Audio("assets/background_music_3.mp3");
 thunder_sfx = new Audio("assets/thunder.mp3");
 rain_sfx = new Audio("assets/rain.mp3");
 wind_sfx = new Audio("assets/rainstorm-with-wind-351117.mp3");
+demonic_laughter = new Audio("assets/demonic_laughter.mp3");
+demonic_scream = new Audio("assets/demonic_scream.mp3");
 
 
 async function show_description()   {
@@ -168,8 +170,8 @@ function onload_functions()  {
         target.appendChild(para);
     }
     var cursorOffset = {
-        left : -20
-      , top  : 0,
+        left : -30
+      , top  : 50,
       
      }
      
@@ -185,6 +187,8 @@ function onload_functions()  {
        tools_hover = document.getElementById("tools");
        time_hover = document.getElementById("display_time");
        date_hover = document.getElementById("display_date");
+       death_bat_hover = document.getElementById("flying_bat");
+        death_bat_reverse_hover = document.getElementById("flying_bat_reverse");
 
        $cursor.style.left = (e.pageX - cursorOffset.left) + 'px';
        $cursor.style.top = (e.pageY - cursorOffset.top) + 'px';
@@ -217,6 +221,31 @@ function onload_functions()  {
             $cursor.appendChild(msg);
             // show_helper("Get to know me 👻");
             show_helper("Find all " + (right_click_msg.length + 6) + " hidden msg");
+            demonic_scream.play();
+            // show_helper(right_click_msg[Math.floor(Math.random() * right_click_msg.length)]);
+            // msg_shown = !msg_shown;
+        } 
+       } else if (death_bat_hover.matches(':hover'))   {
+        // node = document.createTextNode("Get to know me");
+        msg.appendChild(node);
+        if (!msg_shown) {
+            
+            $cursor.appendChild(msg);
+            // show_helper("Get to know me 👻");
+            show_helper("AAARGHHH!");
+            demonic_scream.play();
+            // show_helper(right_click_msg[Math.floor(Math.random() * right_click_msg.length)]);
+            // msg_shown = !msg_shown;
+        } 
+       } else if (death_bat_reverse_hover.matches(':hover'))   {
+        // node = document.createTextNode("Get to know me");
+        msg.appendChild(node);
+        if (!msg_shown) {
+            
+            $cursor.appendChild(msg);
+            // show_helper("Get to know me 👻");
+            show_helper("HA! HA! HA!");
+            demonic_laughter.play();
             // show_helper(right_click_msg[Math.floor(Math.random() * right_click_msg.length)]);
             // msg_shown = !msg_shown;
         } 
@@ -242,6 +271,7 @@ function onload_functions()  {
             if (!msg_shown) {
                 $cursor.appendChild(msg);
                 show_helper("Counting to your death? <br> HA HA HA");
+                demonic_laughter.play();
             }
        } else if (date_hover.matches(':hover')) {
         if (!msg_shown) {
