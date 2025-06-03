@@ -1,10 +1,14 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Jacquard+24&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Jacquard+24&display=swap'); */
 
 @font-face {
     font-family: "Old London";
     src: url('assets/fonts/OldLondon.ttf') format('truetype');;
 }
+
+
+
 
 html    {
     
@@ -90,6 +94,7 @@ height:6px;
 
 
 #flying_bat {
+  
   position: absolute;
   width: 10%;
   animation-name: fly;
@@ -108,18 +113,27 @@ height:6px;
   z-index: 3;
 }
 
-@keyframes fly {
-  0% { top: 100%; left: 5% }
+/* @keyframes fly { */
+  /* 0% { top: 100%; left: 5% } */
+  /* 0% { top: 100%; left: var(--random-test) }
   25% { top: 50%;  left: 0% }
   75% { top: 0%;  left: 20% }
-  100% { top: -30%;  left: 0% }
+  100% { top: -30%;  left: 0% } */
+/* } */
+
+@keyframes fly {
+  /* 0% { top: 100%; left: 5% } */
+  0% { top: 100%; left: var(--random0-up) }
+  25% { top: 50%;  left: var(--random25-up) }
+  75% { top: 0%;  left: var(--random75-up) }
+  100% { top: -30%;  left: var(--random100-up) }
 }
 
 @keyframes fly_down {
-  100% { top: 100%; right: 5% }
-  75% { top: 50%;  right: 20% }
-  25% { top: 0%;  right: 5% }
-  0% { top: -30%;  right: 0% }
+  100% { top: 100%; right: var(--random100-down) }
+  75% { top: 50%;  right: var(--random75-down)  }
+  25% { top: 0%;  right: var(--random25-down) }
+  0% { top: -30%;  right: var(--random0-down) }
 }
 
 .date_and_time  {
@@ -343,7 +357,7 @@ height:6px;
   }
 
   #projects:hover, #tools:hover    {
-    
+    font-family: "Old London";
     background-color: black;
     transition: 1s;
     width: 450px;
@@ -352,6 +366,7 @@ height:6px;
     text-align:left;
     padding-left: 10px;
   }
+
   #msg_box  {
     position: absolute;
     font-size: 50px;

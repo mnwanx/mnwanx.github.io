@@ -49,6 +49,32 @@ tools_list = {
 months_list = "January, February, March, April, May, June, July, August, September, October, November, December";
 day_list = "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday";
 self_description = '"If I could change, I would, take back the pain, I would. Retrace every wrong move that I made, I would. If I could stand up and take the blame, I would. I would take all my shame to the grave"<br>~ Linkin Park ~';
+
+
+
+
+function set_random_fly(){
+    document.documentElement.style.setProperty("--random0-up", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random25-up", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random75-up", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random100-up", Math.floor(Math.random() * 100) + "%");
+
+    document.documentElement.style.setProperty("--random0-down", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random25-down", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random75-down", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random100-down", Math.floor(Math.random() * 100) + "%");
+}
+
+
+set_random_fly();
+fly_interval = setInterval(set_random_fly, 10000);
+
+
+
+
+
+
+
 function show_projects(id)  {
     // window.location.href = projects_list[id];
     window.open(projects_list[id], '_blank');
@@ -205,6 +231,8 @@ function onload_functions()  {
 
        if (projects_hover.matches(':hover'))    {
         // node = document.createTextNode("Click one of those to see the project");
+        document.querySelector("#flying_bat") . style . zIndex = 0
+        document.querySelector("#flying_bat_reverse") . style . zIndex = 0;
         msg.appendChild(node);
         
         if (!msg_shown) {
@@ -214,6 +242,8 @@ function onload_functions()  {
             // msg_shown = !msg_shown;
         } 
        }    else if (profile_hover.matches(':hover'))   {
+        document.querySelector("#flying_bat") . style . zIndex = 0
+        document.querySelector("#flying_bat_reverse") . style . zIndex = 0;
         // node = document.createTextNode("Get to know me");
         msg.appendChild(node);
         if (!msg_shown) {
@@ -259,6 +289,9 @@ function onload_functions()  {
             // msg_shown = !msg_shown;
         } 
        } else if (tools_hover.matches(':hover')) {
+
+        document.querySelector("#flying_bat") . style . zIndex = 0
+        document.querySelector("#flying_bat_reverse") . style . zIndex = 0;
         node = document.createTextNode("Wanna get some help? Use my tool!");
         // msg.appendChild(node);
 
@@ -285,6 +318,8 @@ function onload_functions()  {
      });
      function close_msg()   {
         try {
+            document.querySelector("#flying_bat") . style . zIndex = 3;
+        document.querySelector("#flying_bat_reverse") . style . zIndex = 3;
             // document.getElementById("msg").innerHTML = "";
             document.getElementById("msg").remove();
             msg_shown = !msg_shown;
