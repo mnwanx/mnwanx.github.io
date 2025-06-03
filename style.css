@@ -1,6 +1,11 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Jacquard+24&display=swap');
 
+@font-face {
+    font-family: "Old London";
+    src: url('assets/fonts/OldLondon.ttf') format('truetype');;
+}
+
 html    {
     
     background-color: black;
@@ -146,7 +151,7 @@ height:6px;
     font-size: 35px;
     width: 100%;
     text-align: center;
-    font-family: "Jacquard 24", system-ui;
+    font-family: "Old London", system-ui;
     font-style: bold;
 
 }
@@ -158,6 +163,7 @@ height:6px;
     left: 50%;
     padding: 0px;
     transform: translateX(-50%);
+    font-family: "Old London";
 }
 
 .contact_developer_class    {
@@ -170,7 +176,7 @@ height:6px;
     text-align: center;
     cursor: pointer;
     z-index: 1;
-    font-family: "Jacquard 24", system-ui;
+    font-family: "Old London", system-ui;
   /* font-style: bold; */
   font-size: 25px;
 }
@@ -206,7 +212,7 @@ height:6px;
     transform: translate(-50%, -50%);
     z-index: -1;
     /* font-size: 540px; */
-    font-family: "Jacquard 24", system-ui;
+    font-family: "Old London", system-ui;
   font-style: bold;
   }
 
@@ -318,6 +324,7 @@ height:6px;
     width: 450px;
     height: 500px;
     z-index: 100;
+    font-family: "Old London";
     
   }
 
@@ -325,6 +332,7 @@ height:6px;
     transition: 0.5s;
     margin-left: 20px;
     color:crimson ;
+    font-family: "Old London";
     
   }
 
@@ -358,7 +366,7 @@ height:6px;
     background-color: rgba(255,255,255,.9);
     z-index: 10;
     font-size: 50px;
-    font-family: "Jacquard 24", system-ui;
+    font-family: "Old London", system-ui;
   font-style: bold;
   }
 
@@ -369,7 +377,7 @@ height:6px;
     border-radius: 50px;
     background-color: crimson;
     font-size: 50px;
-    font-family: "Jacquard 24", system-ui;
+    font-family: "Old London", system-ui;
   font-style: bold;
     cursor: pointer;
   }

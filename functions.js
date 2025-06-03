@@ -42,7 +42,7 @@ tools_list = {
     "Instagram Favorite Clear (Project Deleted)":"https://clearfav.onrender.com",
     "URL Shortener":"url_shorterner",
     "TikTok Undo (Remove like / repost / save)": "https://github.com/mnwanx/tiktok_unrepost",
-    "Open Transfer v2025.0.1-Beta":"https://opentransfer.onrender.com",
+    "Open Transfer":"https://opentransfer.onrender.com",
     "Air-Strike":"https://github.com/mnwanx/air-strike-public"
     
 };
@@ -194,7 +194,7 @@ function onload_functions()  {
        $cursor.style.top = (e.pageY - cursorOffset.top) + 'px';
        msg = document.createElement("p");
        msg.setAttribute("id", "msg");
-       msg.setAttribute("style", "width:100%; left: "+ 120 +"px; top: "+ 0+"px; opacity:1; font-size: 30px; font-family: 'Jacquard 24', system-ui; font-style: bold;");
+       msg.setAttribute("style", "width:100%; left: "+ 120 +"px; top: "+ 0+"px; opacity:1; font-size: 25px; font-family: 'Old London', system-ui; font-style: bold;");
 
        window.addEventListener('contextmenu', function(right_click)   {
         
