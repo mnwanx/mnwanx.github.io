@@ -18,3 +18,17 @@ img {
     display:none;
 }
 
+#flying_bat, #flying_bat_reverse    {
+    display: none;
+}
+
+p {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Old London";
+    color: white;
+    font-size: 40px;
+    
+}
