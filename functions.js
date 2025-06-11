@@ -24,13 +24,13 @@ projects_list = {
     "Hand Gesture (Python + OpenCV)":"assets/hand_gesture_project.mp4",
     "Bus Reservation System": "https://www.linkedin.com/posts/mnwanx_bus-reservation-system-original-project-activity-7240237449086394369-s1Sh?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
     "MySolat (Application)": "https://mnwanx.github.io/mysolat_website/MySolat.apk",
-    "MySolat (LinkedIn Documentation)":"https://www.linkedin.com/posts/mnwanx_mysolat-v2024-updated-post-this-app-was-activity-7239117922332286976-bueO?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
+    "MySolat (LinkedIn Documentation)":"https://www.linkedin.com/posts/mnwanx_mysolat-v2024-x-axisdated-post-this-app-was-activity-7239117922332286976-bueO?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
     "MySolat (GitHub Documentation)": "https://github.com/mnwanx/mysolat_website",
     "Music E-Commerce":"https://mnwanx.github.io/music_store",
     "Smart POT / Farming System": "https://www.linkedin.com/posts/mnwanx_mini-project-semester-1-smart-farming-system-activity-7238406170510553090-TEYP?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
     "StreameoPod (MP3 Player Version of Streameo App)":"https://www.linkedin.com/posts/mnwanx_its-been-a-long-time-since-my-last-post-activity-7300082818867503104-Nuu8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
     "Natural Hazard Forecast Backend Server (LinkedIn documentation)": "https://www.linkedin.com/posts/mnwanx_natural-hazard-forecast-backend-server-and-activity-7242416683582160898-7mnV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
-    "Open Transfer (LinkedIn Documentation)":"https://www.linkedin.com/posts/mnwanx_opentransfer-this-is-just-updated-activity-7307264352938561536-ywTn",
+    "Open Transfer (LinkedIn Documentation)":"https://www.linkedin.com/posts/mnwanx_opentransfer-this-is-just-x-axisdated-activity-7307264352938561536-ywTn",
     "Covid Tracking App (Disconitued)":"https://github.com/mnwanx/covid_tracker_app.git"
 };
 
@@ -54,20 +54,60 @@ self_description = '"If I could change, I would, take back the pain, I would. Re
 
 
 function set_random_fly(){
-    document.documentElement.style.setProperty("--random0-up", Math.floor(Math.random() * 100) + "%");
-    document.documentElement.style.setProperty("--random25-up", Math.floor(Math.random() * 100) + "%");
-    document.documentElement.style.setProperty("--random75-up", Math.floor(Math.random() * 100) + "%");
-    document.documentElement.style.setProperty("--random100-up", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random0-x-axis", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random1-x-axis", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random2-x-axis", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random3-x-axis", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random4-x-axis", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random5-x-axis", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random6-x-axis", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random7-x-axis", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random8-x-axis", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random9-x-axis", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random10-x-axis", Math.floor(Math.random() * 100) + "%");
 
-    document.documentElement.style.setProperty("--random0-down", Math.floor(Math.random() * 100) + "%");
-    document.documentElement.style.setProperty("--random25-down", Math.floor(Math.random() * 100) + "%");
-    document.documentElement.style.setProperty("--random75-down", Math.floor(Math.random() * 100) + "%");
-    document.documentElement.style.setProperty("--random100-down", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random0-y-axis", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random1-y-axis", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random2-y-axis", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random3-y-axis", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random4-y-axis", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random5-y-axis", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random6-y-axis", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random7-y-axis", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random8-y-axis", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random9-y-axis", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random10-y-axis", Math.floor(Math.random() * -100) + "%");
+
+
+
+        document.documentElement.style.setProperty("--random0-x-axis2", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random1-x-axis2", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random2-x-axis2", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random3-x-axis2", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random4-x-axis2", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random5-x-axis2", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random6-x-axis2", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random7-x-axis2", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random8-x-axis2", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random9-x-axis2", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random10-x-axis2", Math.floor(Math.random() * 100) + "%");
+
+    document.documentElement.style.setProperty("--random0-y-axis2", Math.floor(Math.random() * -100) + "%");
+    document.documentElement.style.setProperty("--random1-y-axis2", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random2-y-axis2", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random3-y-axis2", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random4-y-axis2", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random5-y-axis2", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random6-y-axis2", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random7-y-axis2", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random8-y-axis2", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random9-y-axis2", Math.floor(Math.random() * 100) + "%");
+    document.documentElement.style.setProperty("--random10-y-axis2", Math.floor(Math.random() * 100) + "%");
 }
 
 
 set_random_fly();
-fly_interval = setInterval(set_random_fly, 10000);
+fly_interval = setInterval(set_random_fly, 30000);
 
 
 
@@ -119,6 +159,8 @@ rain_sfx = new Audio("assets/rain.mp3");
 wind_sfx = new Audio("assets/rainstorm-with-wind-351117.mp3");
 demonic_laughter = new Audio("assets/demonic_laughter.mp3");
 demonic_scream = new Audio("assets/demonic_scream.mp3");
+
+right_click_sfx = [demonic_laughter, demonic_scream];
 
 
 async function show_description()   {
@@ -226,6 +268,7 @@ function onload_functions()  {
         
         right_click.preventDefault();
         $cursor.appendChild(msg);
+        right_click_sfx[Math.floor(Math.random() * 2)].play();
         show_helper(right_click_msg[Math.floor(Math.random() * right_click_msg.length)]);
      });
 

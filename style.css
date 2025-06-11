@@ -98,7 +98,7 @@ height:6px;
   position: absolute;
   width: 10%;
   animation-name: fly;
-  animation-duration: 10s;
+  animation-duration: 30s;
   animation-iteration-count: infinite;
   z-index: 3;
 }
@@ -108,7 +108,7 @@ height:6px;
   width: 10%;
   right: 0%;
   animation-name: fly_down;
-  animation-duration: 10s;
+  animation-duration: 30s;
   animation-iteration-count: infinite;
   z-index: 3;
 }
@@ -123,17 +123,31 @@ height:6px;
 
 @keyframes fly {
   /* 0% { top: 100%; left: 5% } */
-  0% { top: 100%; left: var(--random0-up) }
-  25% { top: 50%;  left: var(--random25-up) }
-  75% { top: 0%;  left: var(--random75-up) }
-  100% { top: -30%;  left: var(--random100-up) }
+  0% { top: var(--random0-y-axis); left: var(--random0-x-axis) }
+  10% { top: var(--random1-y-axis); left: var(--random1-x-axis) }
+  20% { top: var(--random2-y-axis); left: var(--random2-x-axis) }
+  30% { top: var(--random3-y-axis); left: var(--random3-x-axis) }
+  40% { top: var(--random4-y-axis); left: var(--random4-x-axis) }
+  50% { top: var(--random5-y-axis); left: var(--random5-x-axis) }
+  60% { top: var(--random6-y-axis); left: var(--random6-x-axis) }
+  70% { top: var(--random7-y-axis);  left: var(--random7-x-axis) }
+  80% { top: var(--random8-y-axis);  left: var(--random8-x-axis) }
+  90% { top: var(--random9-y-axis);  left: var(--random9-x-axis) }
+  100% { top: var(--random10-y-axis);  left: var(--random10-x-axis) }
 }
 
 @keyframes fly_down {
-  100% { top: 100%; right: var(--random100-down) }
-  75% { top: 50%;  right: var(--random75-down)  }
-  25% { top: 0%;  right: var(--random25-down) }
-  0% { top: -30%;  right: var(--random0-down) }
+  100% { top: var(--random0-y-axis2); left: var(--random0-x-axis2) }
+  90% { top: var(--random1-y-axis2); left: var(--random1-x-axis2) }
+  80% { top: var(--random2-y-axis2); left: var(--random2-x-axis2) }
+  70% { top: var(--random3-y-axis2); left: var(--random3-x-axis2) }
+  60% { top: var(--random4-y-axis2); left: var(--random4-x-axis2) }
+  50% { top: var(--random5-y-axis2); left: var(--random5-x-axis2) }
+  40% { top: var(--random6-y-axis2); left: var(--random6-x-axis2) }
+  30% { top: var(--random7-y-axis2);  left: var(--random7-x-axis2) }
+  20% { top: var(--random8-y-axis2);  left: var(--random8-x-axis2) }
+  10% { top: var(--random9-y-axis2);  left: var(--random9-x-axis2) }
+  0% { top: var(--random10-y-axis2);  left: var(--random10-x-axis2) }
 }
 
 .date_and_time  {
