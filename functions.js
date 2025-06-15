@@ -32,7 +32,8 @@ projects_list = {
     "Natural Hazard Forecast Backend Server (LinkedIn documentation)": "https://www.linkedin.com/posts/mnwanx_natural-hazard-forecast-backend-server-and-activity-7242416683582160898-7mnV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
     "Open Transfer (LinkedIn Documentation)":"https://www.linkedin.com/posts/mnwanx_opentransfer-this-is-just-x-axisdated-activity-7307264352938561536-ywTn",
     "Covid Tracking App (Disconitued)":"https://github.com/mnwanx/covid_tracker_app.git",
-    "Car Crash Detection AI Model (LinkedIn Documentation)":"https://www.linkedin.com/posts/mnwanx_ai-objectdetection-machinelearning-activity-7339843482380877825-wu2M?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE"
+    "Car Crash Detection AI Model (LinkedIn Documentation)":"https://www.linkedin.com/posts/mnwanx_ai-objectdetection-machinelearning-activity-7339843482380877825-wu2M?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
+    "Web 3D (Donut)":"donut"
 };
 
 right_click_msg = ["What r u searching 4?", "Sun goes down", "the light betrayed us", "There is no sun here", "Scream 'till silence", "I'm much 2 young 2 fall", "Die! Die! Die!", "I want ur soul!", "I want to live"];
@@ -45,7 +46,8 @@ tools_list = {
     "TikTok Undo (Remove like / repost / save)": "https://github.com/mnwanx/tiktok_unrepost",
     "Open Transfer":"https://opentransfer.onrender.com",
     "Air-Strike":"https://github.com/mnwanx/air-strike-public",
-    "PV Module Configuration": "https://github.com/mnwanx/PVModule_configuration_selection"
+    "PV Module Configuration": "https://github.com/mnwanx/PVModule_configuration_selection",
+    "3D Donut":"donut"
     
 };
 months_list = "January, February, March, April, May, June, July, August, September, October, November, December";
