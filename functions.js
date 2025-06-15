@@ -31,7 +31,8 @@ projects_list = {
     "StreameoPod (MP3 Player Version of Streameo App)":"https://www.linkedin.com/posts/mnwanx_its-been-a-long-time-since-my-last-post-activity-7300082818867503104-Nuu8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
     "Natural Hazard Forecast Backend Server (LinkedIn documentation)": "https://www.linkedin.com/posts/mnwanx_natural-hazard-forecast-backend-server-and-activity-7242416683582160898-7mnV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
     "Open Transfer (LinkedIn Documentation)":"https://www.linkedin.com/posts/mnwanx_opentransfer-this-is-just-x-axisdated-activity-7307264352938561536-ywTn",
-    "Covid Tracking App (Disconitued)":"https://github.com/mnwanx/covid_tracker_app.git"
+    "Covid Tracking App (Disconitued)":"https://github.com/mnwanx/covid_tracker_app.git",
+    "Car Crash Detection AI Model (LinkedIn Documentation)":"https://www.linkedin.com/posts/mnwanx_ai-objectdetection-machinelearning-activity-7339843482380877825-wu2M?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE"
 };
 
 right_click_msg = ["What r u searching 4?", "Sun goes down", "the light betrayed us", "There is no sun here", "Scream 'till silence", "I'm much 2 young 2 fall", "Die! Die! Die!", "I want ur soul!", "I want to live"];
@@ -43,13 +44,14 @@ tools_list = {
     "URL Shortener":"url_shorterner",
     "TikTok Undo (Remove like / repost / save)": "https://github.com/mnwanx/tiktok_unrepost",
     "Open Transfer":"https://opentransfer.onrender.com",
-    "Air-Strike":"https://github.com/mnwanx/air-strike-public"
+    "Air-Strike":"https://github.com/mnwanx/air-strike-public",
+    "PV Module Configuration": "https://github.com/mnwanx/PVModule_configuration_selection"
     
 };
 months_list = "January, February, March, April, May, June, July, August, September, October, November, December";
 day_list = "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday";
-self_description = '"If I could change, I would, take back the pain, I would. Retrace every wrong move that I made, I would. If I could stand up and take the blame, I would. I would take all my shame to the grave"<br>~ Linkin Park ~';
-
+// self_description = '"If I could change, I would, take back the pain, I would. Retrace every wrong move that I made, I would. If I could stand up and take the blame, I would. I would take all my shame to the grave"<br>~ Linkin Park ~';
+self_description = 'Take a look to the sky just before you die!<br> It\'s the last time you will!<br> Blackened roar, massive roar fills the crumbling sky!<br> Shattered goal fills his soul with a ruthless cry! <br>~ Metallica ~';
 
 
 
@@ -213,7 +215,8 @@ function show_helper(msg_text)  {
 function onload_functions()  {
     date = new Date();
     // show_description();
-    document.getElementById("age") . innerHTML = (date.getFullYear() - 2003) + " y/o";
+    // document.getElementById("age") . innerHTML = (date.getFullYear() - 2003) + " y/o";
+    document.getElementById("info_header") . innerHTML = "Code, " + (date.getFullYear() - 2003);
     target = document.getElementById("projects");
     head = document.createElement("h2");
     head.id = "info_header";
