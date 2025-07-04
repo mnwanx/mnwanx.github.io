@@ -8,11 +8,11 @@ complete_part = 0
 def downloader(part):
     global complete_part
     if part < 10:
-        command = "curl -s -L " + base_link + "Streameo.part0" + str(part) + ".rar -o Streameo.part0" + str(part) + ".rar"
+        command = "curl -s -L " + base_link + "Streameo.exe.part0" + str(part) + " -o Streameo.exe.part0" + str(part)
         system(command)
         
     else:    
-        command = "curl -s -L " + base_link + "Streameo.part" + str(part) + ".rar -o Streameo.part" + str(part) + ".rar"
+        command = "curl -s -L " + base_link + "Streameo.exe.part" + str(part) + " -o Streameo.exe.part" + str(part)
         system(command)
         
     complete_part += 1
@@ -26,7 +26,7 @@ banner = """
   \___ \| __| '__/ _ \/ _` | '_ ` _ \ / _ \/ _ \    | | | '_ \/ __| __/ _` | | |/ _ | '__|
   ____) | |_| | |  __| (_| | | | | | |  __| (_) |  _| |_| | | \__ | || (_| | | |  __| |   
  |_____/ \__|_|  \___|\__,_|_| |_| |_|\___|\___/  |_____|_| |_|___/\__\__,_|_|_|\___|_|
- v3.0
+ v3.0 - Beta
 
 Project Name: Streameo Desktop
 
@@ -42,29 +42,29 @@ try:
 except:
     pass
 chdir("StreameoDesktop")
-for i in range(1, 22):
+for i in range(1, 23):
     Thread(target=downloader, args={i,}).start()
 
 def updater():
-    print(f"Downloading: {round(complete_part / 21.0 * 100, 1)} % | {complete_part} / 21", end="\r")
+    print(f"Downloading: {round(complete_part / 22.0 * 100, 1)} % | {complete_part} / 22", end="\r")
 updater()
 
 
-# while True:
-#     if complete_part == 21:
-#         all_part = listdir()
+while True:
+    if complete_part == 22:
+        all_part = listdir()
 
-#         with open("Streameo.rar", "wb") as file:
-#             for i in range(len(all_part)):
-#                 with open(all_part[i], 'rb') as file2:
-#                     file.write(file2.read())
-#                     print(f"Compiling {i / len(all_part) * 100} %", end="\r")
-#                     file2.close()
-#                 remove(all_part[i])
-#             file.close()
+        with open("Streameo.exe", "wb") as file:
+            for i in range(len(all_part)):
+                with open(all_part[i], 'rb') as file2:
+                    file.write(file2.read())
+                    print(f"Compiling {i / len(all_part) * 100} %", end="\r")
+                    file2.close()
+                remove(all_part[i])
+            file.close()
 
 
-#         system('msg * Compilation done! Extract \"StreameoDesktop/Streameo.rar\" file')
-#         break
-#     else:
-#         pass
+        system('msg * Compilation done! Go to \"StreameoDesktop\" folder')
+        break
+    else:
+        pass
