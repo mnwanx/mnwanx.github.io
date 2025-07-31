@@ -2,59 +2,31 @@ wallpaper_list = ["https://images5.alphacoders.com/862/862186.png", "https://ima
 // alert(wallpaper_list[0]);
 
 contact_developer = ["https://instagram.com/mnwanx", "https://github.com/mnwanx", "https://youtube.com/c/MuhammadNajwan", "https://www.linkedin.com/in/mnwanx/", "https://twitter.com/mnwanx", "https://tiktok.com/@mnwanx"];
-// projects_list = {
-//     "GitHub":"https://github.com/mnwanx",
-//     "Music Streaming App":"https://streameo.onrender.com",
-//     "Natural Hazard Web App":"https://mnwanx.github.io/natural_hazard",
-//     "Natural Hazard backend API":"https://natural-hazard-forecast.onrender.com",
-//     "Mosque Location Finder API":"https://masjid.onrender.com",
-//     "Smart Farming System (IOT)":"https://vt.tiktok.com/ZSYtbTQbQ/",
-//     "Smart Home System (IOT)":"https://vt.tiktok.com/ZSYtbw5P2/",
-//     "Restaurant System (IOT + web app + server)": "https://vt.tiktok.com/ZSYt7oQKV/",
-//     "Hand Gesture (Python + OpenCV)":"assets/hand_gesture_project.mp4"
-// };
 
-projects_list = {
-    "GitHub":"https://github.com/mnwanx",
-    "Music Streaming App":"https://streameo.onrender.com",
-    "Natural Hazard Web App":"https://mnwanx.github.io/natural_hazard",
-    "Natural Hazard backend API":"https://natural-hazard-forecast.onrender.com",
-    "Mosque Location Finder API":"https://masjid.onrender.com",
-    // "Bus Booking System (On going)": "https://github.com/mnwanx/bus_reservation_system_production",
-    "Hand Gesture (Python + OpenCV)":"assets/hand_gesture_project.mp4",
-    "Bus Reservation System": "https://www.linkedin.com/posts/mnwanx_bus-reservation-system-original-project-activity-7240237449086394369-s1Sh?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
-    "MySolat (Application)": "https://mnwanx.github.io/mysolat_website/MySolat.apk",
-    "MySolat (LinkedIn Documentation)":"https://www.linkedin.com/posts/mnwanx_mysolat-v2024-x-axisdated-post-this-app-was-activity-7239117922332286976-bueO?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
-    "MySolat (GitHub Documentation)": "https://github.com/mnwanx/mysolat_website",
-    "Music E-Commerce":"https://mnwanx.github.io/music_store",
-    "Smart POT / Farming System": "https://www.linkedin.com/posts/mnwanx_mini-project-semester-1-smart-farming-system-activity-7238406170510553090-TEYP?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
-    "StreameoPod (MP3 Player Version of Streameo App)":"https://www.linkedin.com/posts/mnwanx_its-been-a-long-time-since-my-last-post-activity-7300082818867503104-Nuu8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
-    "Natural Hazard Forecast Backend Server (LinkedIn documentation)": "https://www.linkedin.com/posts/mnwanx_natural-hazard-forecast-backend-server-and-activity-7242416683582160898-7mnV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
-    "Open Transfer (LinkedIn Documentation)":"https://www.linkedin.com/posts/mnwanx_opentransfer-this-is-just-x-axisdated-activity-7307264352938561536-ywTn",
-    "Covid Tracking App (Disconitued)":"https://github.com/mnwanx/covid_tracker_app.git",
-    "Car Crash Detection AI Model (LinkedIn Documentation)":"https://www.linkedin.com/posts/mnwanx_ai-objectdetection-machinelearning-activity-7339843482380877825-wu2M?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
-    "Web 3D (Donut)":"donut"
-};
+
 
 right_click_msg = ["What r u searching 4?", "Sun goes down", "the light betrayed us", "There is no sun here", "Scream 'till silence", "I'm much 2 young 2 fall", "Die! Die! Die!", "I want ur soul!", "I want to live"];
-tools_list = {
-    "Resistance Calculator (Mobile View)": "resistance_calculator",
-    "BJT Full Analysis Calculator (Mobile View)": "transistor_calculator",
-    "Dynamic URL Reroute":"url_shorterner",
-    "Instagram Favorite Clear (Project Deleted)":"https://clearfav.onrender.com",
-    "URL Shortener":"url_shorterner",
-    "TikTok Undo (Remove like / repost / save)": "https://github.com/mnwanx/tiktok_unrepost",
-    "Open Transfer":"https://opentransfer.onrender.com",
-    "Air-Strike":"https://github.com/mnwanx/air-strike-public",
-    "PV Module Configuration": "https://github.com/mnwanx/PVModule_configuration_selection",
-    "3D Donut":"donut"
-    
-};
 months_list = "January, February, March, April, May, June, July, August, September, October, November, December";
 day_list = "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday";
-// self_description = '"If I could change, I would, take back the pain, I would. Retrace every wrong move that I made, I would. If I could stand up and take the blame, I would. I would take all my shame to the grave"<br>~ Linkin Park ~';
-self_description = 'Take a look to the sky just before you die!<br> It\'s the last time you will!<br> Blackened roar, massive roar fills the crumbling sky!<br> Shattered goal fills his soul with a ruthless cry! <br>~ Metallica ~';
+//self_description = '"If I could change, I would, take back the pain, I would. Retrace every wrong move that I made, I would. If I could stand up and take the blame, I would. I would take all my shame to the grave"<br>~ Linkin Park ~';
+//self_description = 'Take a look to the sky just before you die!<br> It\'s the last time you will!<br> Blackened roar, massive roar fills the crumbling sky!<br> Shattered goal fills his soul with a ruthless cry! <br>~ Metallica ~';
 
+
+
+async function get_database()   {
+    try {
+        const response = await fetch('/database.json');
+        if (!response.ok)   {
+            throw new Error("Something went wrong!");
+        }
+        database = await response.json();
+        self_description = database["poetry"][Math.floor(Math.random() * Object.keys(database["poetry"]).length)];
+    } catch(e)  {
+        console.log(e);
+    }
+}
+
+get_database();
 
 
 function set_random_fly(){
@@ -120,13 +92,13 @@ fly_interval = setInterval(set_random_fly, 30000);
 
 
 function show_projects(id)  {
-    // window.location.href = projects_list[id];
-    window.open(projects_list[id], '_blank');
+    // window.location.href = database["projects_list"][id];
+    window.open(database["projects_list"][id], '_blank');
 }
 
 function open_tools(tool) {
-    // window.location.href = tools_list[tool];
-    window.open(tools_list[tool], '_blank');
+    // window.location.href = database["tools_list"][tool];
+    window.open(database["tools_list"][tool], '_blank');
 }
 
 function contact_me(id)   {
@@ -154,7 +126,7 @@ function update_current_time()  {
 
 setInterval(update_current_time, 1000);
 typing_sfx = new Audio("assets/typing.mp3");
-background_music = new Audio("assets/background_music_3.mp3");
+background_music = new Audio("assets/background_music_4.mp3");
 // background_music =  new Audio("assets/background_music_2.mp3");
 // var background_music = new Audio("assets/background_music.aac");
 
@@ -173,10 +145,13 @@ async function show_description()   {
     
     description = document.getElementById("self_description");
     for (i = 0; i < self_description.length; i++)   {
-        
+        typing_rest = Math.floor(Math.random() * 100);
+        console.log(typing_rest);
         description.innerHTML += self_description[i] + " _";
-        await new Promise(sleep => setTimeout(sleep, 30));
+        await new Promise(sleep => setTimeout(sleep, 35));
         description.innerHTML = description.innerHTML.replace(" _", "");
+        //await new Promise(sleep => setTimeout(sleep, typing_rest));
+        
     }
     description.innerHTML = self_description + "<text id='blinking_cursor'> _</text>";
     document.getElementById("blinking_cursor") . style . animation = "cursor_blink 1s step-start 0s infinite";
@@ -227,18 +202,18 @@ function onload_functions()  {
     head.setAttribute("onclick", "show_projects('GitHub')");
     target.appendChild(head);
 
-    for (i = 1; i < Object.keys(projects_list).length; i++)  {
+    for (i = 1; i < Object.keys(database["projects_list"]).length; i++)  {
         para = document.createElement("p");
-        node = document.createTextNode(Object.keys(projects_list)[i]);
-        para.setAttribute("onclick", "show_projects('" + Object.keys(projects_list)[i] + "')");
+        node = document.createTextNode(Object.keys(database["projects_list"])[i]);
+        para.setAttribute("onclick", "show_projects('" + Object.keys(database["projects_list"])[i] + "')");
     para.appendChild(node);
     target.appendChild(para);
     }
     target = document.getElementById("tools");
-    for (i = 0; i < Object.keys(tools_list).length; i++)   {
+    for (i = 0; i < Object.keys(database["tools_list"]).length; i++)   {
         para = document.createElement("p");
-        node = document.createTextNode(Object.keys(tools_list)[i]);
-        para.setAttribute("onclick", "open_tools('"+ Object.keys(tools_list)[i] +"')")
+        node = document.createTextNode(Object.keys(database["tools_list"])[i]);
+        para.setAttribute("onclick", "open_tools('"+ Object.keys(database["tools_list"])[i] +"')")
         para.appendChild(node);
         target.appendChild(para);
     }
@@ -251,17 +226,20 @@ function onload_functions()  {
     //  msg_shown = false;
      
      document.getElementById("html").addEventListener("mousemove", function (e) {
-       var $cursor = document.getElementById('cursor');
+    var $cursor = document.getElementById('cursor');
 
-       projects_hover = document.getElementById("projects");
-       profile_hover = document.getElementById("profile");
-       social_hover = document.getElementById("contact_developer_id");
-       icons_hover = document.getElementById("icons");
-       tools_hover = document.getElementById("tools");
-       time_hover = document.getElementById("display_time");
-       date_hover = document.getElementById("display_date");
-       death_bat_hover = document.getElementById("flying_bat");
-        death_bat_reverse_hover = document.getElementById("flying_bat_reverse");
+    projects_hover = document.getElementById("projects");
+    profile_hover = document.getElementById("profile");
+    social_hover = document.getElementById("contact_developer_id");
+    icons_hover = document.getElementById("icons");
+    tools_hover = document.getElementById("tools");
+    time_hover = document.getElementById("display_time");
+    date_hover = document.getElementById("display_date");
+    death_bat_hover = document.getElementById("flying_bat");
+    death_bat_reverse_hover = document.getElementById("flying_bat_reverse");
+
+    door_hover = document.getElementById("exit-door");
+
 
        $cursor.style.left = (e.pageX - cursorOffset.left) + 'px';
        $cursor.style.top = (e.pageY - cursorOffset.top) + 'px';
@@ -359,6 +337,11 @@ function onload_functions()  {
             $cursor.appendChild(msg);
             show_helper("Date of Death !");
         }
+   } else if (door_hover.matches(':hover')) {
+    if (!msg_shown) {
+        $cursor.appendChild(msg);
+        show_helper("Exit Night");
+    }
    } else   {
         close_msg();
     }
@@ -385,12 +368,22 @@ function onload_functions()  {
      node = document.createTextNode("Please use desktop or laptop for a better experience!");
      box.appendChild(document.createElement("br"));
      box.appendChild(node);
+
      close_button = document.createElement("button");
      close_button.setAttribute("onclick", "close_msg_box()");
-     node = document.createTextNode("Close");
+     node = document.createTextNode("Pure Art");
      close_button.appendChild(node);
-     box.appendChild(document.createElement("br"));
+    //  box.appendChild(document.createElement("br"));
      box.appendChild(close_button);
+
+     pro_mode_button = document.createElement("button");
+     pro_mode_button.setAttribute("onclick", "close_msg_box()");
+     node2 = document.createTextNode("Professional Mode");
+     pro_mode_button.appendChild(node2);
+    //  box.appendChild(document.createElement("br"));
+     box.appendChild(pro_mode_button);
+
      target.appendChild(box);
+     
     //  background_music.play();
 }

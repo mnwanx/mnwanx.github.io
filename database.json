@@ -1,0 +1,45 @@
+{
+"projects_list": {
+    "GitHub":"https://github.com/mnwanx",
+    "Music Streaming App":"https://streameo.onrender.com",
+    "Natural Hazard Web App":"https://mnwanx.github.io/natural_hazard",
+    "Natural Hazard backend API":"https://natural-hazard-forecast.onrender.com",
+    "Mosque Location Finder API":"https://masjid.onrender.com",
+    "Hand Gesture (Python + OpenCV)":"assets/hand_gesture_project.mp4",
+    "Bus Reservation System": "https://www.linkedin.com/posts/mnwanx_bus-reservation-system-original-project-activity-7240237449086394369-s1Sh?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
+    "MySolat (Application)": "https://mnwanx.github.io/mysolat_website/MySolat.apk",
+    "MySolat (LinkedIn Documentation)":"https://www.linkedin.com/posts/mnwanx_mysolat-v2024-x-axisdated-post-this-app-was-activity-7239117922332286976-bueO?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
+    "MySolat (GitHub Documentation)": "https://github.com/mnwanx/mysolat_website",
+    "Music E-Commerce":"https://mnwanx.github.io/music_store",
+    "Smart POT / Farming System": "https://www.linkedin.com/posts/mnwanx_mini-project-semester-1-smart-farming-system-activity-7238406170510553090-TEYP?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
+    "StreameoPod (MP3 Player Version of Streameo App)":"https://www.linkedin.com/posts/mnwanx_its-been-a-long-time-since-my-last-post-activity-7300082818867503104-Nuu8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
+    "Natural Hazard Forecast Backend Server (LinkedIn documentation)": "https://www.linkedin.com/posts/mnwanx_natural-hazard-forecast-backend-server-and-activity-7242416683582160898-7mnV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
+    "Open Transfer (LinkedIn Documentation)":"https://www.linkedin.com/posts/mnwanx_opentransfer-this-is-just-x-axisdated-activity-7307264352938561536-ywTn",
+    "Covid Tracking App (Disconitued)":"https://github.com/mnwanx/covid_tracker_app.git",
+    "Car Crash Detection AI Model (LinkedIn Documentation)":"https://www.linkedin.com/posts/mnwanx_ai-objectdetection-machinelearning-activity-7339843482380877825-wu2M?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
+    "Car Crash Detection AI Model (LinkedIn Video)":"https://www.linkedin.com/posts/mnwanx_ai-artificialintelligence-machinelearning-activity-7356233207006056449-tp1F?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE"
+},
+"tools_list":{
+    "Resistance Calculator (Mobile View)": "resistance_calculator",
+    "BJT Full Analysis Calculator (Mobile View)": "transistor_calculator",
+    "Dynamic URL Reroute":"url_shorterner",
+    "Instagram Favorite Clear (Project Deleted)":"https://clearfav.onrender.com",
+    "URL Shortener":"url_shorterner",
+    "TikTok Undo (Remove like / repost / save)": "https://github.com/mnwanx/tiktok_unrepost",
+    "Open Transfer":"https://opentransfer.onrender.com",
+    "Air-Strike":"https://github.com/mnwanx/air-strike-public",
+    "PV Module Configuration": "https://github.com/mnwanx/PVModule_configuration_selection",
+    "3D Donut":"donut"
+    
+},
+"poetry":   {
+    "0":"Beneath the soil, I lie and wait,<br>A name erased by hands of fate.<br>The stars still burn, but not for me,<br>I sleep beneath eternity.",
+    "1":"The ticking stops, yet time decays, <br>Within these walls, the silence stays. <br>A thousand screams behind one door, <br>What once was life returns no more.",
+    "2":"They sang my name in tongues of dust, <br>While maggots danced in sacred rust. <br>My cradle rocked in graves of stone, <br>With marrow hymns and shrieking bone. <br>The light withdrew, ashamed to see, <br>What love became inside of me.",
+    "3":"I stitched my faith from cursed skin,<br>And drank the dark that bloomed within.<br>Each heartbeat hums a blasphemed verse,<br>Of holy rot and sainted curse.<br>No one shall claim this husk I wear.<br>I crowned myself in black despair.",
+    "4":"Beneath the veil where shadows creep,<br>The dead still mutter in their sleep.<br>I hear them whisper through the seams,<br>Bleeding sorrow into dreams.<br>Their hands reach up to drag me down,<br>And I descend without a crown.",
+    "5":"The altar weeps in crimson tide,<br>Where once a soul refused to hide.<br>I offered fear and spoke in moans,<br>Then cracked my truth through brittle bones.<br>My future burned, a sick divine,<br>And now the ruin’s fully mine.",
+    "6":"This skin remembers every scar,<br>Each whispered sin, each fallen star.<br>The mirror cracks, but shows me still,<br>A soul grown sharp enough to kill.",
+    "7":"My breath is smoke, my thoughts are coal,<br>A shrine of flame where burned the soul.<br>The night is kind, the light deceives,<br>I found my truth where no one grieves."
+}
+}

@@ -15,7 +15,8 @@ class Raindrop {
         this.y = Math.random() * -canvas.height;
         this.length = Math.random() * 20 + 50;
         this.speed = Math.random() * 5 + 20;
-        this.opacity = Math.random() * 0.5 + 0.2;
+        // this.opacity = Math.random() * 0.5 + 0.2;
+        this.opacity = Math.random() * .8;
     }
 
     update() {
@@ -27,14 +28,15 @@ class Raindrop {
     }
 
     draw() {
-        ctx.strokeStyle = `rgba(95, 154, 250, ${this.opacity})`;
-        // ctx.strokeStyle = `rgba(173, 216, 230, ${this.opacity})`;
+        ctx.strokeStyle = `rgba(245, 7, 7, ${this.opacity})`;
+        // ctx.strokeStyle = `rgba(245, 7, 70, ${this.opacity})`;
         ctx.lineWidth = 2;
         ctx.beginPath();
         ctx.moveTo(this.x, this.y);
         ctx.lineTo(this.x, this.y + this.length);
         ctx.stroke();
     }
+    
 
     createSplash() {
         let splashCount = Math.floor(Math.random() * 4) + 2;
@@ -62,8 +64,8 @@ class Splash {
     }
 
     draw() {
-        ctx.fillStyle = `rgba(95, 154, 250, ${this.opacity})`;
-        // ctx.fillStyle = `rgba(173, 216, 230, ${this.opacity})`;
+        ctx.fillStyle = `rgba(245, 7, 7, ${this.opacity})`;
+        // ctx.fillStyle = `rgba(245, 7, 70, ${this.opacity})`;
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
         ctx.fill();
