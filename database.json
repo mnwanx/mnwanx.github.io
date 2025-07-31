@@ -73,5 +73,16 @@
 "hobby_preview":    {
     "Creeping Death":"https://mnwanx.github.io/assets/hobby thumbnails/creeping death.png",
     "Eternal Rest":"https://mnwanx.github.io/assets/hobby thumbnails/eternal rest.png"
+},
+
+"hobby": {
+    "Creeping Death": {
+        "link":"https://www.tiktok.com/@mnwanx/video/7510097946013125889?is_from_webapp=1&sender_device=pc",
+        "thumbnail":"https://mnwanx.github.io/assets/hobby thumbnails/creeping death.png"
+    },
+    "Eternal Rest": {
+        "link":"https://www.tiktok.com/@mnwanx/video/7480064391514230017?is_from_webapp=1&sender_device=pc",
+        "thumbnail":"https://mnwanx.github.io/assets/hobby thumbnails/eternal rest.png"
+    }
 }
 }
