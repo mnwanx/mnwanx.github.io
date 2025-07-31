@@ -3,33 +3,29 @@
     "GitHub":"https://github.com/mnwanx",
     "Music Streaming App":"https://streameo.onrender.com",
     "Natural Hazard Web App":"https://mnwanx.github.io/natural_hazard",
-    "Natural Hazard backend API":"https://natural-hazard-forecast.onrender.com",
-    "Mosque Location Finder API":"https://masjid.onrender.com",
-    "Hand Gesture (Python + OpenCV)":"assets/hand_gesture_project.mp4",
+    "Hand Gesture (Python + OpenCV)":"https://mnwanx.github.io/assets/hand_gesture_project.mp4",
     "Bus Reservation System": "https://www.linkedin.com/posts/mnwanx_bus-reservation-system-original-project-activity-7240237449086394369-s1Sh?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
-    "MySolat (Application)": "https://mnwanx.github.io/mysolat_website/MySolat.apk",
-    "MySolat (LinkedIn Documentation)":"https://www.linkedin.com/posts/mnwanx_mysolat-v2024-x-axisdated-post-this-app-was-activity-7239117922332286976-bueO?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
     "MySolat (GitHub Documentation)": "https://github.com/mnwanx/mysolat_website",
     "Music E-Commerce":"https://mnwanx.github.io/music_store",
     "Smart POT / Farming System": "https://www.linkedin.com/posts/mnwanx_mini-project-semester-1-smart-farming-system-activity-7238406170510553090-TEYP?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
     "StreameoPod (MP3 Player Version of Streameo App)":"https://www.linkedin.com/posts/mnwanx_its-been-a-long-time-since-my-last-post-activity-7300082818867503104-Nuu8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
     "Natural Hazard Forecast Backend Server (LinkedIn documentation)": "https://www.linkedin.com/posts/mnwanx_natural-hazard-forecast-backend-server-and-activity-7242416683582160898-7mnV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
-    "Open Transfer (LinkedIn Documentation)":"https://www.linkedin.com/posts/mnwanx_opentransfer-this-is-just-x-axisdated-activity-7307264352938561536-ywTn",
+    "Open Transfer (LinkedIn Documentation)":"https://www.linkedin.com/posts/mnwanx_new-feature-on-opentransfer-project-blaze-activity-7322133329091117056-budp?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
     "Covid Tracking App (Disconitued)":"https://github.com/mnwanx/covid_tracker_app.git",
     "Car Crash Detection AI Model (LinkedIn Documentation)":"https://www.linkedin.com/posts/mnwanx_ai-objectdetection-machinelearning-activity-7339843482380877825-wu2M?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
     "Car Crash Detection AI Model (LinkedIn Video)":"https://www.linkedin.com/posts/mnwanx_ai-artificialintelligence-machinelearning-activity-7356233207006056449-tp1F?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE"
 },
 "tools_list":{
-    "Resistance Calculator (Mobile View)": "resistance_calculator",
-    "BJT Full Analysis Calculator (Mobile View)": "transistor_calculator",
-    "Dynamic URL Reroute":"url_shorterner",
+    "Resistance Calculator (Mobile View)": "https://mnwanx.github.io/resistance_calculator",
+    "BJT Full Analysis Calculator (Mobile View)": "https://mnwanx.github.io/transistor_calculator",
+    "Dynamic URL Reroute":"https://mnwanx.github.io/url_shorterner",
     "Instagram Favorite Clear (Project Deleted)":"https://clearfav.onrender.com",
-    "URL Shortener":"url_shorterner",
+    "URL Shortener":"https://mnwanx.github.io/url_shorterner",
     "TikTok Undo (Remove like / repost / save)": "https://github.com/mnwanx/tiktok_unrepost",
     "Open Transfer":"https://opentransfer.onrender.com",
     "Air-Strike":"https://github.com/mnwanx/air-strike-public",
     "PV Module Configuration": "https://github.com/mnwanx/PVModule_configuration_selection",
-    "3D Donut":"donut"
+    "3D Donut":"https://mnwanx.github.io/donut"
     
 },
 "poetry":   {
@@ -41,5 +37,24 @@
     "5":"The altar weeps in crimson tide,<br>Where once a soul refused to hide.<br>I offered fear and spoke in moans,<br>Then cracked my truth through brittle bones.<br>My future burned, a sick divine,<br>And now the ruin’s fully mine.",
     "6":"This skin remembers every scar,<br>Each whispered sin, each fallen star.<br>The mirror cracks, but shows me still,<br>A soul grown sharp enough to kill.",
     "7":"My breath is smoke, my thoughts are coal,<br>A shrine of flame where burned the soul.<br>The night is kind, the light deceives,<br>I found my truth where no one grieves."
+},
+
+"project_previews": {
+    "0":"https://mnwanx.github.io/assets/projects previews/0.png",
+    "1":"https://mnwanx.github.io/assets/projects previews/1.png",
+    "2":"https://mnwanx.github.io/assets/projects previews/2.png",
+    "3":"https://mnwanx.github.io/assets/projects previews/3.png",
+    "4":"https://mnwanx.github.io/assets/projects previews/4.png",
+    "5":"https://mnwanx.github.io/assets/projects previews/5.png",
+    "6":"https://mnwanx.github.io/assets/projects previews/6.png",
+    "7":"https://mnwanx.github.io/assets/projects previews/7.png",
+    "8":"https://mnwanx.github.io/assets/projects previews/8.png",
+    "9":"https://mnwanx.github.io/assets/projects previews/9.png",
+    "10":"https://mnwanx.github.io/assets/projects previews/10.png",
+    "11":"https://mnwanx.github.io/assets/projects previews/11.png",
+    "12":"https://mnwanx.github.io/assets/projects previews/12.png",
+    "13":"https://mnwanx.github.io/assets/projects previews/13.png"
+    
+
 }
 }
