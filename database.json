@@ -18,9 +18,6 @@
 "tools_list":{
     "Resistance Calculator (Mobile View)": "https://mnwanx.github.io/resistance_calculator",
     "BJT Full Analysis Calculator (Mobile View)": "https://mnwanx.github.io/transistor_calculator",
-    "Dynamic URL Reroute":"https://mnwanx.github.io/url_shorterner",
-    "Instagram Favorite Clear (Project Deleted)":"https://clearfav.onrender.com",
-    "URL Shortener":"https://mnwanx.github.io/url_shorterner",
     "TikTok Undo (Remove like / repost / save)": "https://github.com/mnwanx/tiktok_unrepost",
     "Open Transfer":"https://opentransfer.onrender.com",
     "Air-Strike":"https://github.com/mnwanx/air-strike-public",
@@ -54,6 +51,18 @@
     "11":"https://mnwanx.github.io/assets/projects previews/11.png",
     "12":"https://mnwanx.github.io/assets/projects previews/12.png",
     "13":"https://mnwanx.github.io/assets/projects previews/13.png"
+    
+
+},
+
+"tools_previews":   {
+    "0":"https://mnwanx.github.io/assets/tools previews/0.png",
+    "1":"https://mnwanx.github.io/assets/tools previews/1.jpg",
+    "2":"https://mnwanx.github.io/assets/tools previews/2.png",
+    "3":"https://mnwanx.github.io/assets/projects previews/10.png",
+    "4":"https://mnwanx.github.io/assets/tools previews/4.png",
+    "5":"https://mnwanx.github.io/assets/tools previews/5.png",
+    "6":"https://mnwanx.github.io/assets/tools previews/6.png"
     
 
 }
