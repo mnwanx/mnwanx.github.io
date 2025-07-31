@@ -164,7 +164,9 @@ async function show_description()   {
     
 }
 
-
+function pro_mode() {
+    window.location.href = "/pro";
+}
 function close_msg_box()    {
     document.getElementById("msg_box").remove();
     background_music.loop = true;
@@ -377,7 +379,7 @@ function onload_functions()  {
      box.appendChild(close_button);
 
      pro_mode_button = document.createElement("button");
-     pro_mode_button.setAttribute("onclick", "close_msg_box()");
+     pro_mode_button.setAttribute("onclick", "pro_mode()");
      node2 = document.createTextNode("Professional Mode");
      pro_mode_button.appendChild(node2);
     //  box.appendChild(document.createElement("br"));
