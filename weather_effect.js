@@ -49,7 +49,16 @@ class Raindrop {
 class Splash {
     constructor(x, y) {
         this.x = x;
-        this.y = y;
+
+        if (this.x > 50 && this.x < 90) {
+            this.y = y - 150;   
+            } else  if ((this.x > 90 && this.x < 130) || (this.x > 20 && this.x < 50)){
+                this.y = y - 120;
+            } else if ((this.x > 130 && this.x < 140) || (this.x > 10 && this.x < 20))    {
+                this.y = y - 30;
+            }else  {
+            this.y = y;
+            }
         this.size = Math.random() * 3 + 1;
         this.speedX = (Math.random() - 0.5) * 4;
         this.speedY = -Math.random() * 3;

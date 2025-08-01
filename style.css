@@ -413,6 +413,7 @@ height:6px;
 
   #exit-door  {
     position: absolute;
+    bottom: 0;
     height: 300px;
     height: 140px;
   }
