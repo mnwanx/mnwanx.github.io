@@ -1,5 +1,11 @@
-body    {
+html    {
     background-color: black;
+    /* background-image: none; */
+    background-image: url("assets/death.jpg");
+    background-repeat:no-repeat ;
+    justify-content: center;
+  cursor: url('assets/cursor.png') 0 0, wait;
+  text-shadow: 2px 2px 8px #FF0000;
 }
 
 h1  {
@@ -18,7 +24,7 @@ img {
     display:none;
 }
 
-#flying_bat, #flying_bat_reverse    {
+#flying_bat, #flying_bat_reverse, #exit-door, #projects, #tools, #profile, #cursor    {
     display: none;
 }
 

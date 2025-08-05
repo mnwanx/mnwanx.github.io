@@ -16,7 +16,8 @@ html    {
     /* background-image: url("assets/background.gif"); */
     /* background-image: url("https://animesher.com/orig/1/145/1456/14564/animesher.com_gif-night-wind-1456418.gif"); */
     /* background-image: url("https://images5.alphacoders.com/862/862186.png"); */
-    background-image: url("assets/background2.gif");
+    /* background-image: url("assets/background2.gif"); */
+    background-image: url("assets/background3.jpg");
     background-repeat:no-repeat ;
     
     background-size: cover;
@@ -24,12 +25,14 @@ html    {
   font-style: bold;
   justify-content: center;
   cursor: url('assets/cursor.png') 0 0, wait;
+  text-shadow: 2px 2px 8px #FF0000;
   
 }
 
 body {
   margin: 0;
   overflow: hidden;
+  
 
 }
 canvas {
@@ -157,7 +160,7 @@ height:6px;
     left: 50%;
     top: 10%;
     transform: translate(-50%, -50%);
-    text-shadow: 5px 5px black;
+    text-shadow: 5px 5px 5px black;
 
     animation-name: blink;
     animation-duration: 1.5s;
@@ -211,6 +214,7 @@ height:6px;
 #icons  {
     word-spacing: 3px;
     transition: 1s;
+    text-shadow: none;
 }
 .contact_developer_class:hover #icons, #icons:hover {
     transition: 1s;
@@ -229,6 +233,7 @@ height:6px;
     mask-repeat: no-repeat;
     -webkit-mask-size: 100% 100%;
     mask-size: 100% 100%;
+    
   }
 
   #under_development    {
@@ -338,7 +343,7 @@ height:6px;
     height: 10px;
     transition: 1s;
     font-size: 25px;
-    text-shadow: 5px 5px black;
+    text-shadow: 5px 5px 8px black;
     animation-name: blink;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;

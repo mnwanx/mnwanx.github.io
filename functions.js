@@ -204,7 +204,7 @@ function onload_functions()  {
     head.setAttribute("onclick", "show_projects('GitHub')");
     target.appendChild(head);
 
-    for (i = 1; i < Object.keys(database["projects_list"]).length; i++)  {
+    for (i = Object.keys(database["projects_list"]).length - 1; i > 0; i--)  {
         para = document.createElement("p");
         node = document.createTextNode(Object.keys(database["projects_list"])[i]);
         para.setAttribute("onclick", "show_projects('" + Object.keys(database["projects_list"])[i] + "')");
@@ -212,7 +212,7 @@ function onload_functions()  {
     target.appendChild(para);
     }
     target = document.getElementById("tools");
-    for (i = 0; i < Object.keys(database["tools_list"]).length; i++)   {
+    for (i = Object.keys(database["tools_list"]).length - 1; i >= 0; i--)   {
         para = document.createElement("p");
         node = document.createTextNode(Object.keys(database["tools_list"])[i]);
         para.setAttribute("onclick", "open_tools('"+ Object.keys(database["tools_list"])[i] +"')")

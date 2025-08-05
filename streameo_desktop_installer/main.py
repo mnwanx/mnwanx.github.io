@@ -26,12 +26,12 @@ banner = """
   \___ \| __| '__/ _ \/ _` | '_ ` _ \ / _ \/ _ \    | | | '_ \/ __| __/ _` | | |/ _ | '__|
   ____) | |_| | |  __| (_| | | | | | |  __| (_) |  _| |_| | | \__ | || (_| | | |  __| |   
  |_____/ \__|_|  \___|\__,_|_| |_| |_|\___|\___/  |_____|_| |_|___/\__\__,_|_|_|\___|_|
- v3.1 - Beta
+ v3.2 - Beta
 
 Project Name: Streameo Desktop
 
 Visit Streameo Project: https://streameo.onrender.com
-Devepoed by Code                                                                                          
+Developed by Code                                                                                          
 
 """
 
@@ -64,7 +64,11 @@ while True:
             file.close()
 
 
-        system('msg * Compilation done! Go to \"StreameoDesktop\" folder')
+        try:
+            system('msg * Compilation done! Go to \"StreameoDesktop\" folder')
+        except:
+            print('Compilation done! Go to \"StreameoDesktop\" folder')
+            system("pause")
         break
     else:
         pass
