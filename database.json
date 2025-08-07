@@ -1,29 +1,113 @@
 {
 "projects_list": {
-    "GitHub":"https://github.com/mnwanx",
-    "Music Streaming App":"https://streameo.onrender.com",
-    "Natural Hazard Web App":"https://mnwanx.github.io/natural_hazard",
-    "Hand Gesture (Python + OpenCV)":"https://mnwanx.github.io/assets/hand_gesture_project.mp4",
-    "Bus Reservation System": "https://www.linkedin.com/posts/mnwanx_bus-reservation-system-original-project-activity-7240237449086394369-s1Sh?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
-    "MySolat (GitHub Documentation)": "https://github.com/mnwanx/mysolat_website",
-    "Music E-Commerce":"https://mnwanx.github.io/music_store",
-    "Smart POT / Farming System": "https://www.linkedin.com/posts/mnwanx_mini-project-semester-1-smart-farming-system-activity-7238406170510553090-TEYP?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
-    "StreameoPod (MP3 Player Version of Streameo App)":"https://www.linkedin.com/posts/mnwanx_its-been-a-long-time-since-my-last-post-activity-7300082818867503104-Nuu8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
-    "Natural Hazard Forecast Backend Server (LinkedIn documentation)": "https://www.linkedin.com/posts/mnwanx_natural-hazard-forecast-backend-server-and-activity-7242416683582160898-7mnV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
-    "Open Transfer (LinkedIn Documentation)":"https://www.linkedin.com/posts/mnwanx_new-feature-on-opentransfer-project-blaze-activity-7322133329091117056-budp?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
-    "Covid Tracking App (Disconitued)":"https://github.com/mnwanx/covid_tracker_app.git",
-    "Car Crash Detection AI Model (LinkedIn Documentation)":"https://www.linkedin.com/posts/mnwanx_ai-objectdetection-machinelearning-activity-7339843482380877825-wu2M?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
-    "Car Crash Detection AI Model (LinkedIn Video)":"https://www.linkedin.com/posts/mnwanx_ai-artificialintelligence-machinelearning-activity-7356233207006056449-tp1F?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
-    "iConveyor (Documentation)":"https://www.linkedin.com/posts/mnwanx_electronics-embeddedsystem-software-activity-7352972762442878976--oWK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE"
+    "GitHub":{
+        "link":"https://github.com/mnwanx",
+        "thumbnail":"https://mnwanx.github.io/assets/projects previews/0.png"
+    },
+    "Music Streaming App":{
+        "link":"https://streameo.onrender.com",
+        "thumbnail":"https://mnwanx.github.io/assets/projects previews/1.png"
+    },
+    
+    "Natural Hazard WebApp":{
+        "link":"https://mnwanx.github.io/natural_hazard",
+        "thumbnail":"https://mnwanx.github.io/assets/projects previews/2.png"
+    },
+    
+    
+    "Hand Gesture (Python + OpenCV)":{
+        "link":"https://mnwanx.github.io/assets/hand_gesture_project.mp4",
+        "thumbnail":"https://mnwanx.github.io/assets/projects previews/3.png"
+    },
+    
+    "Natural Hazard Forecast Backend Server (LinkedIn documentation)":{
+        "link":"https://www.linkedin.com/posts/mnwanx_natural-hazard-forecast-backend-server-and-activity-7242416683582160898-7mnV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
+        "thumbnail":"https://mnwanx.github.io/assets/projects previews/9.png"
+    },
+    "Covid Tracking App (Disconitued)":{
+        "link":"https://github.com/mnwanx/covid_tracker_app.git",
+        "thumbnail":"https://mnwanx.github.io/assets/projects previews/11.png"
+    },
+
+    
+    "MySolat (GitHub Documentation)":{
+        "link":"https://github.com/mnwanx/mysolat_website",
+        "thumbnail":"https://mnwanx.github.io/assets/projects previews/5.png"
+    },
+        "Masjid Locator":{
+        "link":"https://www.linkedin.com/posts/mnwanx_masjid-locator-a-backend-project-to-provide-activity-7235112269334859777-fvCt?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
+        "thumbnail":"https://mnwanx.github.io/assets/projects previews/15.png"
+    },
+    
+    "Music E-Commerce":{
+        "link":"https://mnwanx.github.io/music_store",
+        "thumbnail":"https://mnwanx.github.io/assets/projects previews/6.png"
+    },
+    "Smart POT / Farming System":{
+        "link":"https://www.linkedin.com/posts/mnwanx_mini-project-semester-1-smart-farming-system-activity-7238406170510553090-TEYP?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
+        "thumbnail":"https://mnwanx.github.io/assets/projects previews/7.png"
+    },
+    "StreameoPod (MP3 Player Version of Streameo App)":{
+        "link":"https://www.linkedin.com/posts/mnwanx_its-been-a-long-time-since-my-last-post-activity-7300082818867503104-Nuu8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
+        "thumbnail":"https://mnwanx.github.io/assets/projects previews/8.png"
+    },
+    "MySolat":{
+        "link":"https://www.linkedin.com/posts/mnwanx_mysolat-v2024-updated-post-this-app-was-activity-7239117922332286976-bueO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
+        "thumbnail":"https://mnwanx.github.io/assets/projects previews/16.png"
+    },
+    "Open Transfer (LinkedIn Documentation)":{
+        "link":"https://www.linkedin.com/posts/mnwanx_new-feature-on-opentransfer-project-blaze-activity-7322133329091117056-budp?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
+        "thumbnail":"https://mnwanx.github.io/assets/projects previews/10.png"
+    },
+    
+    "Car Crash Detection AI Model (LinkedIn Documentation)":{
+        "link":"https://www.linkedin.com/posts/mnwanx_ai-objectdetection-machinelearning-activity-7339843482380877825-wu2M?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
+        "thumbnail":"https://mnwanx.github.io/assets/projects previews/12.png"
+    },
+    "Bus Reservation System":{
+        "link":"https://www.linkedin.com/posts/mnwanx_bus-reservation-system-original-project-activity-7240237449086394369-s1Sh?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
+        "thumbnail":"https://mnwanx.github.io/assets/projects previews/4.png"
+    },
+    "Car Crash Detection AI Model (LinkedIn Video)":{
+        "link":"https://www.linkedin.com/posts/mnwanx_ai-artificialintelligence-machinelearning-activity-7356233207006056449-tp1F?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
+        "thumbnail":"https://mnwanx.github.io/assets/projects previews/13.png"
+    },
+    "iConveyor (Documentation)":{
+        "link":"https://www.linkedin.com/posts/mnwanx_electronics-embeddedsystem-software-activity-7352972762442878976--oWK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
+        "thumbnail":"https://mnwanx.github.io/assets/projects previews/14.png"
+    }
+    
+
 },
 "tools_list":{
-    "Resistance Calculator (Mobile View)": "https://mnwanx.github.io/resistance_calculator",
-    "BJT Full Analysis Calculator (Mobile View)": "https://mnwanx.github.io/transistor_calculator",
-    "TikTok Undo (Remove like / repost / save)": "https://github.com/mnwanx/tiktok_unrepost",
-    "Open Transfer":"https://opentransfer.onrender.com",
-    "Air-Strike":"https://github.com/mnwanx/air-strike-public",
-    "PV Module Configuration": "https://github.com/mnwanx/PVModule_configuration_selection",
-    "3D Donut":"https://mnwanx.github.io/donut"
+    "Resistance Calculator (Mobile View)":{
+        "link":"https://mnwanx.github.io/resistance_calculator",
+        "thumbnail":"https://mnwanx.github.io/assets/tools previews/0.png"
+    },
+    "BJT Full Analysis Calculator (Mobile View)":{
+        "link":"https://mnwanx.github.io/transistor_calculator",
+        "thumbnail":"https://mnwanx.github.io/assets/tools previews/1.png"
+    },
+    "TikTok Undo (Remove like / repost / save)":{
+        "link":"https://github.com/mnwanx/tiktok_unrepost",
+        "thumbnail":"https://mnwanx.github.io/assets/tools previews/2.png"
+    },
+    "OpenTransfer":{
+        "link":"https://opentransfer.onrender.com",
+        "thumbnail":"https://mnwanx.github.io/assets/projects previews/10.png"
+    },
+    "Air-Strike":{
+        "link":"https://github.com/mnwanx/air-strike-public",
+        "thumbnail":"https://mnwanx.github.io/assets/tools previews/4.png"
+    },
+    "PV Module Configuration":{
+        "link":"https://github.com/mnwanx/PVModule_configuration_selection",
+        "thumbnail":"https://mnwanx.github.io/assets/tools previews/5.jpg"
+    },
+    "3D Donut":{
+        "link":"https://mnwanx.github.io/donut",
+        "thumbnail":"https://mnwanx.github.io/assets/tools previews/6.png"
+    }
     
 },
 "poetry":   {
@@ -37,45 +121,7 @@
     "7":"My breath is smoke, my thoughts are coal,<br>A shrine of flame where burned the soul.<br>The night is kind, the light deceives,<br>I found my truth where no one grieves."
 },
 
-"project_previews": {
-    "0":"https://mnwanx.github.io/assets/projects previews/0.png",
-    "1":"https://mnwanx.github.io/assets/projects previews/1.png",
-    "2":"https://mnwanx.github.io/assets/projects previews/2.png",
-    "3":"https://mnwanx.github.io/assets/projects previews/3.png",
-    "4":"https://mnwanx.github.io/assets/projects previews/4.png",
-    "5":"https://mnwanx.github.io/assets/projects previews/5.png",
-    "6":"https://mnwanx.github.io/assets/projects previews/6.png",
-    "7":"https://mnwanx.github.io/assets/projects previews/7.png",
-    "8":"https://mnwanx.github.io/assets/projects previews/8.png",
-    "9":"https://mnwanx.github.io/assets/projects previews/9.png",
-    "10":"https://mnwanx.github.io/assets/projects previews/10.png",
-    "11":"https://mnwanx.github.io/assets/projects previews/11.png",
-    "12":"https://mnwanx.github.io/assets/projects previews/12.png",
-    "13":"https://mnwanx.github.io/assets/projects previews/13.png",
-    "14":"https://mnwanx.github.io/assets/projects previews/14.png"
-    
 
-},
-"tools_previews":   {
-    "0":"https://mnwanx.github.io/assets/tools previews/0.png",
-    "1":"https://mnwanx.github.io/assets/tools previews/1.png",
-    "2":"https://mnwanx.github.io/assets/tools previews/2.png",
-    "3":"https://mnwanx.github.io/assets/projects previews/10.png",
-    "4":"https://mnwanx.github.io/assets/tools previews/4.png",
-    "5":"https://mnwanx.github.io/assets/tools previews/5.jpg",
-    "6":"https://mnwanx.github.io/assets/tools previews/6.png"
-},
-
-
-"hobby_link":   {
-    "Creeping Death":"https://www.tiktok.com/@mnwanx/video/7510097946013125889?is_from_webapp=1&sender_device=pc",
-    "Eternal Rest":"https://www.tiktok.com/@mnwanx/video/7480064391514230017?is_from_webapp=1&sender_device=pc"
-},
-
-"hobby_preview":    {
-    "Creeping Death":"https://mnwanx.github.io/assets/hobby thumbnails/creeping death.png",
-    "Eternal Rest":"https://mnwanx.github.io/assets/hobby thumbnails/eternal rest.png"
-},
 
 "hobby": {
     "Creeping Death": {
