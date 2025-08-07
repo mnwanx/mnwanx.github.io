@@ -93,12 +93,12 @@ fly_interval = setInterval(set_random_fly, 30000);
 
 function show_projects(id)  {
     // window.location.href = database["projects_list"][id];
-    window.open(database["projects_list"][id], '_blank');
+    window.open(database["projects_list"][id]["link"], '_blank');
 }
 
 function open_tools(tool) {
     // window.location.href = database["tools_list"][tool];
-    window.open(database["tools_list"][tool], '_blank');
+    window.open(database["tools_list"][tool]["link"], '_blank');
 }
 
 function contact_me(id)   {
