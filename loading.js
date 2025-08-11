@@ -10,7 +10,11 @@ document.addEventListener('readystatechange', () => {
 
 
     element[0].parentNode.removeChild(element[0]);
+
+
+    
   } else    {
-    console.log(document.readyState);
+    if (window.innerWidth < window.innerHeight)
+      window.location.href = "/pro";
   }
 });

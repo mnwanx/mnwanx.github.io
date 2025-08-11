@@ -388,7 +388,7 @@ height:6px;
 
   #msg_box  {
     position: absolute;
-    font-size: 50px;
+    font-size: 150px;
     height: 100vh;
     width: 100vw;
     left: 0%;
@@ -402,6 +402,7 @@ height:6px;
     font-size: 50px;
     font-family: "Old London", system-ui;
   font-style: bold;
+
   }
 
   button    {

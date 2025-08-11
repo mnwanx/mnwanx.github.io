@@ -365,22 +365,27 @@ function onload_functions()  {
      target = document.getElementById("html");
      box = document.createElement("div");
      box.setAttribute("id", "msg_box");
-     node = document.createTextNode("Welcome!");
-     box.appendChild(node);
-     node = document.createTextNode("Please use desktop or laptop for a better experience!");
+     node = document.createTextNode("W E L C O M E !");
      box.appendChild(document.createElement("br"));
      box.appendChild(node);
+     box.appendChild(document.createElement("br"));
+
+     
 
      close_button = document.createElement("button");
      close_button.setAttribute("onclick", "close_msg_box()");
      node = document.createTextNode("Pure Art");
+     close_button.style.color = "white";
      close_button.appendChild(node);
     //  box.appendChild(document.createElement("br"));
      box.appendChild(close_button);
 
-     pro_mode_button = document.createElement("button");
-     pro_mode_button.setAttribute("onclick", "pro_mode()");
-     node2 = document.createTextNode("Professional Mode");
+
+    pro_mode_button = document.createElement("button");
+    pro_mode_button.setAttribute("onclick", "pro_mode()");
+    node2 = document.createTextNode("Professional Mode");
+    pro_mode_button.style.fontFamily = "Garamond";
+    pro_mode_button.style.color = "white";
      pro_mode_button.appendChild(node2);
     //  box.appendChild(document.createElement("br"));
      box.appendChild(pro_mode_button);
