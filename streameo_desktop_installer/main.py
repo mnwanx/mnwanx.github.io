@@ -46,7 +46,7 @@ for i in range(1, 23):
     Thread(target=downloader, args={i,}).start()
 
 def updater():
-    print(f"Downloading: {round(complete_part / 22.0 * 100, 1)} % | {complete_part} / 22", end="\r")
+    print(f"✅ Downloading: {round(complete_part / 22.0 * 100, 1)} % | {complete_part} / 22")
 updater()
 
 
@@ -58,7 +58,7 @@ while True:
             for i in range(len(all_part)):
                 with open(all_part[i], 'rb') as file2:
                     file.write(file2.read())
-                    print(f"Compiling {i / len(all_part) * 100} %", end="\r")
+                    print(f"Compiling {(i / len(all_part) * 100):.2f} %", end="\r")
                     file2.close()
                 remove(all_part[i])
             file.close()
