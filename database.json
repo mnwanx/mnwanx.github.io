@@ -133,8 +133,12 @@
 
 
 "hobby": {
+    "Second Heartbeat (Live LBC)": {
+        "link":"https://www.tiktok.com/@mnwanx/video/7546831110018223376?is_from_webapp=1&sender_device=pc&web_id=7451866506998760976",
+        "thumbnail":"https://mnwanx.github.io/assets/hobby thumbnails/second heartbeat.png"
+    },
     "Floods (Outro)": {
-        "link":"https://www.tiktok.com/@mnwanx/video/7510097946013125889?is_from_webapp=1&sender_device=pc",
+        "link":"https://www.tiktok.com/@mnwanx/video/7543539461410327809?is_from_webapp=1&sender_device=pc&web_id=7451866506998760976",
         "thumbnail":"https://mnwanx.github.io/assets/hobby thumbnails/floods (outro).png"
     },
     "Creeping Death": {
@@ -174,5 +178,6 @@
         "thumbnail":"https://mnwanx.github.io/assets/hobby thumbnails/nightmare.png"
     }
     
+}
 }
 }
