@@ -79,6 +79,10 @@
     "iConveyor (Detail Documentation)":{
         "link":"https://www.linkedin.com/posts/mnwanx_iot-embeddedsystem-microcontroller-activity-7370707802996137986-kz7z?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFI756IBy0L0gr7K3EC-5W8vIDCVUozCCRE",
         "thumbnail":"https://mnwanx.github.io/assets/projects previews/19.png"
+    },
+    "PCB Defect Detector":{
+        "link":"https://mnwanx.github.io/pcb_defect_detector",
+        "thumbnail":"https://mnwanx.github.io/assets/projects previews/20.png"
     }
 },
 "tools_list":{
@@ -117,6 +121,10 @@
     "Shoe Classifier":{
         "link":"https://mnwanx.github.io/shoes_class",
         "thumbnail":"https://mnwanx.github.io/assets/tools previews/8.png"
+    },
+    "PCB Defect Detector":{
+        "link":"https://mnwanx.github.io/pcb_defect_detector",
+        "thumbnail":"https://mnwanx.github.io/assets/tools previews/9.png"
     }
     
 },
