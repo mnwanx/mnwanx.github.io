@@ -1,11 +1,11 @@
 @echo off
 set /p update_msg="Enter commit msg >> "
-set msg = %update_msg%
 
 git add .
-IF "%msg%"=="" (
+IF "%update_msg%"=="" (
     git commit -m "Update"
 ) ELSE (
-    git commit -m "%msg%"
+    git commit -m "%update_msg%"
 )
 git push
+
