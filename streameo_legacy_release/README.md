@@ -1,7 +1,7 @@
 # Streameo Android Legacy Release
 - Welcome to legacy releases for Streameo Android Project.
 - This legacy releases only includes from **```Streameo-v2024.0.0```** to **```latest version```**
-- **TAKE NOTE!** that some of this releases may contain bugs so if you're not sure what you're doing, please get install from official website to get latest [```Streameo Release```](https://streameo.onrender.com)
+- **TAKE NOTE!** that some of these releases may contain bugs so if you're not sure what you're doing, please install from official website to get latest [```Streameo Release```](https://streameo.onrender.com)
 
 ## v2024.0.X
 - [Streameo-v2024.0.0.apk](https://github.com/mnwanx/mnwanx.github.io/raw/refs/heads/master/streameo_legacy_release/releases/Streameo-v2024.0.0.apk)
